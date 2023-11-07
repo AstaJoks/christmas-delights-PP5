@@ -1,0 +1,10 @@
+/* General CSS */
+
+/* Set the base styles for the entire page */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #ecf1ecf9;
+}

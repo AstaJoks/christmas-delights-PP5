@@ -1,6 +1,68 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block content %}
-<h1 class="display-4 text-success">It works!</h1>
-{% endblock %}
+<div class="hero-image-home jumbotron-overlay jumbotron-fluid py-md-5 d-flex align-items-center">
+    <div class="container d-flex justify-content-center">
+        <div class="hero-text text-center text-wrap py-3 mt-3">
+            <h1>Step into Christmas!</h1>
+            <a href="#" class="btn btn-lg text-uppercase py-3" aria-label="Shop now Button">Shop Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="container align-items-center text-center py-3">
+    <h2 class="section-heading">Popular Categories</h2>
+    <hr>
+</div>
+
+<section class="py-1">
+    <div class="container align-items-center justify-content-center">
+        <div class="row">
+            <div class="col-md-4 py-4">
+                <div class="card card-home h-100">
+                    <img class="index-image"
+                        src="https://res.cloudinary.com/dcydt01ed/image/upload/v1699396957/decorations_t8aso4.webp"
+                        alt="Christmas Decorations">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold text-center">Christmas Decorations</h3>
+                        <p class="card-text text"></p>
+                        <a href="#" class="btn py-2" aria-label="Christmas Decorations">
+                            See More
+                            <span class="sr-only">Navigate to Christmas Decorations Category</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-4">
+                <div class="card card-home h-100">
+                    <img class="index-image" src="https://res.cloudinary.com/dcydt01ed/image/upload/v1699396957/elf_x92p3j.webp"
+                        alt="Elf on the shelf">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold text-center">Naughty Elf</h3>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn py-2" aria-label="See More - Elf on the shelf">
+                            See More
+                            <span class="sr-only">Navigate to Elf on the Shelf Category</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-4">
+                <div class="card card-home h-100">
+                    <img class="index-image"
+                        src="https://res.cloudinary.com/dcydt01ed/image/upload/v1699396957/Costumes_j9lgzv.webp"
+                        alt="Christmas Costumes">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fw-bold text-center">Christmas Fancy Costumes</h3>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn py-2" aria-label="See More - Christmas Costumes">
+                            See More
+                            <span class="sr-only">Navigate to Christmas Costumes Category</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <hr>
+            </div>
+</section>
