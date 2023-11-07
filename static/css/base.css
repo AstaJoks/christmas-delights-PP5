@@ -16,7 +16,82 @@ body {
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
     position: relative;
     z-index: 0;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #7f0800;
+    text-shadow: 2px 2px 2px black, 5px 5px 25px white;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.btn {
+    color: #FFF;
+    background-color: #2e5f00;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 2rem 2rem;
+    font-size: 1.3rem;
+}
+
+.btn:hover {
+    background-color: #7f0800;
+    color: #FFF;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-heading {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.card-home {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-home img {
+    transition: transform 0.3s ease;
+}
+
+.card-home:hover img {
+    transform: scale(1.02);
+}
+
+.card-home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 238, 52, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card-home:hover::before {
+    opacity: 1;
+}
+
+.index-image {
+    height: auto;
+    width: 100%;
 }
