@@ -124,6 +124,10 @@ body {
 
 /* Navbar*/
 
+img.logo {
+    width: 25vh;
+}
+
 .bg-as-body {
     background-color: #ecf1ecf9;
 }
