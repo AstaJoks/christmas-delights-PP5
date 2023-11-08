@@ -46,7 +46,32 @@
 </head>
 
 <body>
-    <header class="container-fluid fixed-top"></header>
+
+    <!-- NAV BAR SECTION -->
+    <header class="container-fluid sticky-top">
+        <div class="row bg-as-body d-none d-lg-flex p-1">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+                <a href="{% url 'home' %}"><img class="logo"
+                        src="https://res.cloudinary.com/dcydt01ed/image/upload/v1699481613/logo_ejua6a.png" alt="Logo"></a>
+            </div>
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                <form method="GET" action="#">
+                    <div class="input-group w-100">
+                        <input class="form-control border rounded-0 border-black type=" name="q"
+                            placeholder="Tell us what you're looking for" aria-label="Search Input Box">
+                        <div class="input-group-append">
+                            <button class="form-control btn-black border border-black rounded-0" type="submit"
+                                aria-label="Search Box Button">
+                                <span>
+                                    <i class="brand-color fas fa-search"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </header>
+    <!-- NAV BAR SECTION -->
     
     {% if messages %}
     <div class="message-container"></div>
