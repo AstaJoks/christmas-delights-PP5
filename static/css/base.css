@@ -121,6 +121,17 @@ body {
     color: #FFFF;
 }
 
+
+/* Navbar*/
+
+.bg-as-body {
+    background-color: #ecf1ecf9;
+}
+
+.brand-color {
+    color: #7f0800;
+}
+
 /* Footer*/
 
 .footer {
