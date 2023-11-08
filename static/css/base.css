@@ -136,6 +136,14 @@ img.logo {
     color: #7f0800;
 }
 
+.nav-link {
+    padding: 0.5rem;
+}
+
+.navbar-right {
+    color: black;
+}
+
 /* Footer*/
 
 .footer {
