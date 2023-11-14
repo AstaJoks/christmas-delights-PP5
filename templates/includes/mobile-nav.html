@@ -1,0 +1,111 @@
+<div class="d-block d-lg-none">
+    <a href="{% url 'home' %}"><img class="logo"
+        src="https://res.cloudinary.com/dcydt01ed/image/upload/v1699481613/logo_ejua6a.png" 
+        alt="Logo"></a>
+</div>
+
+<ul class="navbar-icons">
+    <!-- SEARCH BAR -->
+    <li class="list-inline-item">
+        <a class="navbar-right d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <div class="text-center">
+                <div><i class="brand-color-mobile fas fa-search" aria-hidden="true"></i></div>
+                <p class="my-0 nav-link">Search</p>
+            </div>
+        </a>
+        <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
+            <form class="form" method="GET" action="#">
+                <div class="input-group w-100">
+                    <input class="form-control border rounded-0 border-black" type="text" name="q"
+                        placeholder="Search Products" aria-label="search">
+                    <div class="input-group-append">
+                        <button class="form-control border rounded-0 border-black" type="submit" aria-label="Search">
+                            <span class="icon">
+                                <i class="brand-color-mobile fas fa-search" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </li>
+    <!-- ACCOUNTS -->
+    <li class="list-inline-item dropdown">
+        <a class="navbar-right d-block d-lg-none" href="#" id="mobile-user-options" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <div class="text-center">
+                <div><i class="brand-color-mobile fas fa-user"></i></div>
+                <p class="my-0 nav-link">My Account</p>
+            </div>
+        </a>
+        <div class="dropdown-menu border-0">
+            {% if request.user.is_authenticated %}
+            {% if request.user.is_superuser %}
+            <a href="#" class="dropdown-item">Product Management</a>
+            {% endif %}
+            <a href="#" class="dropdown-item">My Profile</a>
+            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+            {% else %}
+            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+            {% endif %}
+        </div>
+    </li>
+    {% if request.user.is_authenticated %}
+    <li class="list-inline-item">
+        <a class="text-black nav-link px-1 d-lg-none" href="#">
+            <div class="text-center">
+                <div><i class="brand-color-mobile fas fa-heart"></i></div>
+                <p class="my-0 nav-link">Wishlist</p>
+            </div>
+        </a>
+    </li>
+    {% endif %}
+    <!-- SCHOPPING CART -->
+    <li class="list-inline-item">
+        <a class="{% if grand_total %}alt-text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"
+            href="#">
+            <div class="text-center">
+                <div><i class="brand-color-mobile fas fa-shopping-cart"></i></div>
+                <p class="my-0 nav-link">
+                    {% if grand_total %}
+                    €{{ grand_total|floatformat:2 }}
+                    {% else %}
+                    €0.00
+                    {% endif %}
+                </p>
+            </div>
+        </a>
+    </li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>

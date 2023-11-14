@@ -10,7 +10,6 @@ body {
 }
 
 /* Home Page */
-
 .hero-image-home {
     background-image: url(https://res.cloudinary.com/dcydt01ed/image/upload/v1699398259/hero-image_dppfod.webp);
     background-position: right center;
@@ -51,6 +50,7 @@ body {
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Home Page - popular categories section */
 .section-heading {
     margin-top: 20px;
     font-weight: 800;
@@ -136,8 +136,14 @@ img.logo {
     color: #7f0800;
 }
 
+.brand-color-mobile {
+    color: #2e5f00;
+}
+
 .nav-link {
     padding: 0.5rem;
+    color: black !important;
+    text-decoration: none;
 }
 
 .navbar-right {
@@ -145,7 +151,6 @@ img.logo {
 }
 
 /* Footer*/
-
 .footer {
     color: #ecf1ecf9;
     background-color: #2e5f00;
@@ -166,10 +171,23 @@ img.logo {
 
 /* Media Queries */
 
-/* Responsive styles for screens with a maximum width of 400px */
-@media (max-width: 400px) {
+/* Responsive styles for screens with a maximum width of 420px */
+@media (max-width: 420px) {
 
     .hero-text h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
+    }
+}
+
+/* Responsive styles for screens with a maximum width of 350px */
+@media (max-width: 350px) {
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+    
+    .navbar-icons {
+        display: flex;
+        margin: 15px auto;
     }
 }

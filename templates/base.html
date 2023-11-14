@@ -37,6 +37,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous">
     </script>
+    <script src="https://kit.fontawesome.com/684b584c56.js" crossorigin="anonymous"></script>
     {% endblock %}
 
     {% block extra_js %}
@@ -50,11 +51,12 @@
     <!-- NAV BAR SECTION -->
     <header class="container-fluid sticky-top">
         <div class="row bg-as-body d-none d-lg-flex p-1">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+            <div class="col-12 col-lg-4 my-auto py-0">
                 <a href="{% url 'home' %}"><img class="logo"
                         src="https://res.cloudinary.com/dcydt01ed/image/upload/v1699481613/logo_ejua6a.png" alt="Logo"></a>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <!-- SEARCH SECTION -->
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-1">
                 <form method="GET" action="#">
                     <div class="input-group w-100">
                         <input class="form-control border rounded-0 border-black type=" name="q"
@@ -70,7 +72,8 @@
                     </div>
                 </form>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <!-- ACCOUNTS MENUS -->
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-1">
                 <ul class=" list-inline list-unstyled text-center text-lg-right my-0">
                     <li class=" list-inline-item dropdown">
                         <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -114,15 +117,18 @@
                 </ul>
             </div>
         </div>
+        <!-- NAV BAR SECTION -->
+
         <div class="row bg-as-body">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
                     aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                {% include 'includes/mobile-nav.html' %}
+                {% include 'includes/main-nav.html' %}
             </nav>
     </header>
-    <!-- NAV BAR SECTION -->
     
     {% if messages %}
     <div class="message-container"></div>
