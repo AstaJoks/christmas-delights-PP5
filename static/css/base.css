@@ -150,6 +150,18 @@ img.logo {
     color: black;
 }
 
+.bg-banner {
+    background: #7f0800;
+}
+
+.navbar-icons {
+    margin-bottom: 0 !important;
+}
+
+.font-weight-bold {
+    font-size: 1.2rem;
+}
+
 /* Footer*/
 .footer {
     color: #ecf1ecf9;
@@ -179,15 +191,19 @@ img.logo {
     }
 }
 
-/* Responsive styles for screens with a maximum width of 350px */
-@media (max-width: 350px) {
+@media (max-width: 991px) {
 
-    .hero-text h1 {
-        font-size: 2.5rem;
-    }
-    
     .navbar-icons {
         display: flex;
-        margin: 15px auto;
+        margin-top: 1rem;
+        margin-bottom: 0 !important;
+    }
+
+    .bg-banner h4 {
+        font-size: 1.2rem;
+    }
+
+    .font-weight-bold {
+        font-size: 1rem;
     }
 }

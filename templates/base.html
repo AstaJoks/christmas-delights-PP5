@@ -55,7 +55,7 @@
                 <a href="{% url 'home' %}"><img class="logo"
                         src="https://res.cloudinary.com/dcydt01ed/image/upload/v1699481613/logo_ejua6a.png" alt="Logo"></a>
             </div>
-            <!-- SEARCH SECTION -->
+            <!-- SEARCH BAR -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-1">
                 <form method="GET" action="#">
                     <div class="input-group w-100">
@@ -128,6 +128,12 @@
                 {% include 'includes/mobile-nav.html' %}
                 {% include 'includes/main-nav.html' %}
             </nav>
+        </div>
+            <div id="delivery-banner" class="row text-center">
+                <div class="col bg-banner text-white">
+                    <h4 class="my-1">Free delivery on orders over €{{ free_shipping_threshold }}!</h4>
+                </div>
+            </div>
     </header>
     
     {% if messages %}
