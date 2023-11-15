@@ -48,14 +48,14 @@
 
 <body>
 
-    <!-- NAV BAR SECTION -->
+    <!-- Nav Bar section -->
     <header class="container-fluid sticky-top">
         <div class="row bg-as-body d-none d-lg-flex p-1">
             <div class="col-12 col-lg-4 my-auto py-0">
                 <a href="{% url 'home' %}"><img class="logo"
                         src="https://res.cloudinary.com/dcydt01ed/image/upload/v1699481613/logo_ejua6a.png" alt="Logo"></a>
             </div>
-            <!-- SEARCH BAR -->
+            <!-- Search Bar-->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-1">
                 <form method="GET" action="#">
                     <div class="input-group w-100">
@@ -72,7 +72,7 @@
                     </div>
                 </form>
             </div>
-            <!-- ACCOUNTS MENUS -->
+            <!-- Account Menius -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-1">
                 <ul class=" list-inline list-unstyled text-center text-lg-right my-0">
                     <li class=" list-inline-item dropdown">
@@ -117,7 +117,7 @@
                 </ul>
             </div>
         </div>
-        <!-- NAV BAR SECTION -->
+        <!-- Nav Bar Section -->
 
         <div class="row bg-as-body">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
@@ -151,49 +151,64 @@
 
 </body>
 
-    <!-- FOOTER -->
-    <!-- Font awesome icons as the clickable links to social media sites. Links open in a new tab -->
-    <footer class="footer text-center mt-auto">
-        <div class="container pt-3">
-            <!-- Social media -->
-            <div class="mb-4">
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook ms-3"></i></a>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram ms-3"></i></a>
-                <a href="https://github.com/AstaJoks" target="_blank" rel="noopener"
-                    aria-label="Visit my GitHub page (opens in a new tab)"><i class="fab fa-github ms-3"></i></a>
-                <a href="https://www.pinterest.com/" target="_blank" rel="noopener"
-                    aria-label="Visit the Pinterest page for ideas (opens in a new tab)"><i
-                        class="fab fa-pinterest ms-3"></i></a>
-                <hr>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Footer navigation -->
-                <div class="col text-center pt-3">
-                    <div class="d-flex justify-content-center pb-3">
-                        <ol class="nav flex-column">
-                            <li class="mt-3">
-                                <a class="d-flex" href="#">Contact Us</a>
-                            </li>
-                            <li class="mt-3">
-                                <a class="d-flex" href="#">FAQ's</a>
-                            </li>
-                            <li class="mt-3">
-                                <a class="d-flex" href="#" target="blank">Privacy
-                                    Policy</a>
-                            </li>
-                        </ol>
+    <!-- Footer -->
+<footer class="footer">
+
+    <div class="footer-content position-relative">
+        <div class="container">
+            <div class="row footer-row">
+
+                <div class="col-lg-4 col-md-3 footer-col">
+                    <h5 class="h4">Useful Links</h5>
+                    <ul>
+                        <li><a href="{% url 'home' %}">Home</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-col">
+                <!-- Begin Mailchimp Signup Form -->
+                </div>
+            
+                <!-- Contact Us Section-->
+                <div class="col-lg-4 col-md-3 footer-col">
+                    <h5 class="h4">Contact Us</h5>
+                    <div class="contact-links">
+                        <a href="tel:353123456789">Phone: +353 123 456789</a>
+                        <a href="mailto:info@christmasdelights.ie">Email: info@christmasdelights.ie</a>
                     </div>
                 </div>
             </div>
-            <div class="copyright text-center p-2 pb-5">
-                © 2023
-                <a class="footer-text-color" href="#">Christmas Delights</a>
+
+                <!-- Social Media links -->
+                <!-- Font awesome icons as the clickable links to social media sites. Links open in a new tab -->
+                <div class="social-links d-flex">
+                    <a href="https://facebook.com" class="d-flex align-items-center justify-content-center" 
+                        target="_blank"
+                        rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
+                        <i class="fab fa-facebook ms-3"></i></a>
+                    <a href="https://instagram.com" class="d-flex align-items-center justify-content-center" 
+                        target="_blank"
+                        rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
+                        <i class="fab fa-instagram ms-3"></i></a>
+                    <a href="https://github.com/AstaJoks" class="d-flex align-items-center justify-content-center" 
+                        target="_blank"
+                        rel="noopener" aria-label="Visit my GitHub page (opens in a new tab)">
+                        <i class="fab fa-github ms-3"></i></a>
+                    <a href="https://www.pinterest.com/" class="d-flex align-items-center justify-content-center"
+                        target="_blank"
+                        rel="noopener" aria-label="Visit the Pinterest page for ideas (opens in a new tab)">
+                        <i class="fab fa-pinterest ms-3"></i></a>
+                </div>
             </div>
-        </div>
-    </footer>
+    </div>
+
+    <div class="copyright text-center p-2 pb-5">
+        © 2023
+        <a href="{% url 'home' %}">Christmas Delights</a>
+    </div>
+</footer>
 
 </html>

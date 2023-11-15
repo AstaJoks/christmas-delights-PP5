@@ -166,30 +166,72 @@ img.logo {
 .footer {
     color: #ecf1ecf9;
     background-color: #2e5f00;
+    flex-shrink: 0;
+    text-align: center;
 }
 
 .footer a {
     color: #ecf1ecf9;
-    background-color: #2e5f00;
 }
 
 .copyright {
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 
-.footer hr {
-    border-color: #ecf1ecf9;
+.footer-container {
+    padding-bottom: 20px;
+}
+
+.footer .row {
+    padding-top: 10px;
+}
+
+.footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.footer ul {
+    line-height: 2em;
+    list-style: none;
+    padding: 0;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5em;
+}
+
+.footer-content {
+    color: #ecf1ecf9;
+}
+
+.footer-col {
+    padding-top: 20px;
+}
+
+.footer-row {
+    padding: 0;
+    margin: 0;
+}
+
+.social-links {
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links i {
+    padding: 10px;
 }
 
 /* Media Queries */
 
 /* Responsive styles for screens with a maximum width of 420px */
-@media (max-width: 420px) {
-
-    .hero-text h1 {
-        font-size: 3.5rem;
-    }
-}
 
 @media (max-width: 991px) {
 
@@ -205,5 +247,16 @@ img.logo {
 
     .font-weight-bold {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .hero-text h1 {
+        font-size: 3.5rem;
+    }
+
+    .h4 {
+        font-size: 1.3em;
     }
 }
