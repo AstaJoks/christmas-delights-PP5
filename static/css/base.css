@@ -54,6 +54,7 @@ body {
 .section-heading {
     margin-top: 20px;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .card-title {
@@ -121,6 +122,48 @@ body {
     color: #FFFF;
 }
 
+/* Why Us Section */
+.why-us {
+    padding: 2em;
+}
+
+.why-us h2 {
+    color: #ecf1ecf9;
+    text-transform: uppercase;
+}
+
+.why-us-item img {
+    width: 100px;
+    margin-top: 1em;
+    filter: invert(1);
+}
+
+.why-us {
+    background-color: #2e5f00;
+}
+
+.why-us .why-us-item {
+    height: 100%;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.why-us-title {
+    color: #ecf1ecf9;
+    margin: 0 0 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.why-us-p {
+    color: #ecf1ecf9;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
 
 /* Navbar*/
 
@@ -164,14 +207,14 @@ img.logo {
 
 /* Footer*/
 .footer {
-    color: #ecf1ecf9;
-    background-color: #2e5f00;
+    color: black;
+    background-color: #ecf1ecf9;
     flex-shrink: 0;
     text-align: center;
 }
 
 .footer a {
-    color: #ecf1ecf9;
+    color: black;
 }
 
 .copyright {
@@ -187,7 +230,7 @@ img.logo {
 }
 
 .footer a:hover {
-    color: black;
+    color: #2e5f00;
     text-decoration: none;
 }
 
@@ -204,7 +247,7 @@ img.logo {
 }
 
 .footer-content {
-    color: #ecf1ecf9;
+    color: black;
 }
 
 .footer-col {
