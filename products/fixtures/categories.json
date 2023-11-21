@@ -1,0 +1,37 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "decorations",
+            "friendly_name": "Decorations"
+        }
+    },
+
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "elf",
+            "friendly_name": "Elf on The Shelf"
+        }
+    },
+
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+                "name": "baloons",
+        "friendly_name": "Christmas Baloons"
+        }
+    },
+
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "stockings",
+            "friendly_name": "Christmas Eve Stockings"
+        }
+    }
+]

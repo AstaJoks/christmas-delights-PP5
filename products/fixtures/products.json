@@ -1,0 +1,351 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC1",
+            "title": "Extendable Reindeer Gonk",
+            "description": "Charming and full of festive charm, this Extendable Reindeer Gonk is a must-have addition to your Christmas celebrations this year. Packed full of character, this ornament has a fun gonk design with a classic fluffy beard, boots and attractive reindeer antlers. Excellent for mantelpieces, shelves, and accent tables, this adorable Gonk will easily become one of your favourite Yuletide decorations.",
+            "price": 14.99,
+            "category": 1,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC2",
+            "title": "LED Gonk Friends Ornament",
+            "description": "Full of fun and festive charm, this LED Gonk Friends Ornament is full of character. This fabulous ornament features three cheerful Gonks, a Christmas tree and warm and cosy glowing LED lights, perfect for filling your home with yuletide magic and cheer this winter.",
+            "price": 15.99,
+            "category": 1,
+            "rating": 4.8,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC3",
+            "title": "Welcome Santa Plaque",
+            "description": "Get ready for the countdown to Christmas and celebrate the festive season in style with this Welcome Santa Plaque. Perfect for welcoming friends and family into your home this winter.",
+            "price": 10.99,
+            "category": 1,
+            "rating": 4.6,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC4",
+            "title": "Musical Santa Snow Globe",
+            "description": "This traditionally festive Musical Santa Snow Globe will make a wonderful addition to you Christmas decorations this year. With no batteries needed, simply wind up the globe to hear it play a lovely musical key tune.",
+            "price": 12.99,
+            "category": 1,
+            "rating": 4.3,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC5",
+            "title": "Pack Of 12 Forest Baubles - Gold",
+            "description": "Using tones of burnished bronze and glittering gold, this Pack Of 12 Forest Baubles creates a warm, autumnal aesthetic, perfect for those looking to offset their festive decor with some extra style. Including four different bauble styles across the 12 included, this set is perfect for picking out your Christmas tree and creating a sense of cohesion amongst your decor.",
+            "price": 4.99,
+            "category": 1,
+            "rating": 4.8,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC6",
+            "title": "Pack of 30 Frosted Fairytale Baubles - White",
+            "description": "Give your home a truly beautiful wintery feel by decorating your Christmas tree with the Pack of 30 Frosted Fairytale Baubles. These baubles come in tones of white and silver with shimmering accents to catch the glow of your fairy lights. They coordinate beautifully with one another and other decorations you may already have, making them great for use each year.",
+            "price": 9.99,
+            "category": 1,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC7",
+            "title": "Set of 12 Alpine Lodge Baubles - Blue",
+            "description": "This Set of 12 Alpine Lodge Baubles will make your Christmas tree feel like a winter wonderland. Featuring 12 baubles in a gorgeous ice blue tone accented with glittered white baubles, they will make your home feel frosty and cosy. They'll shimmer elegantly from your tree and create a twinkling effect under the glow of your festive lights.",
+            "price": 6.99,
+            "category": 1,
+            "rating": 4.4,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC8",
+            "title": "Alpine Lodge Mini Bauble Pack",
+            "description": "Turn your home into a magical winter wonderland this Christmas with this fabulous Alpine Lodge Mini Bauble Pack. Featuring a variety of decorations from stars, traditional pinecones and an adorable polar bear. This stunning selection of ornaments will look spectacular on your tree and take pride of place among your festive decor.",
+            "price": 3.99,
+            "category": 1,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC9",
+            "title": "PSet of 6 Candy Baubles",
+            "description": "This Set of 6 Candy Baubles is a bright and unique way to decorate your tree for Christmas. The set includes six adorable baubles shaped like traditional candies, complete with twisted packaging. The baubles are finished with glitter and sequins for a shimmering effect and has pastel tones to make your tree stand out this winter.",
+            "price": 2.49,
+            "category": 1,
+            "rating": 4.9,
+            "image": "xnull"
+        }
+    },
+
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC10",
+            "title": "Pack of 8 Hanging Dinosaur Decorations",
+            "description": "Make your Christmas decorations stand out over winter and decorate your tree with the Pack of 8 Hanging Dinosaur Decorations. These festive ornaments are shaped like dinosaurs wearing their winter warmers and are finished with adorable little smiles which will spread Christmas cheer. The dinosaurs will look spectacular hanging from any Christmas tree and comes with natural string hanging loops.",
+            "price": 2.49,
+            "category": 1,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC11",
+            "title": "The Elf On The Shelf A Christmas Tradition - Red / Blue Eye Boy",
+            "description": "This beloved family tradition has captured the hearts of children everywhere who embrace the magic of having a Scout Elf who reports to Santa each night during the holidays. This package has everything needed to make lasting Christmas memories! Register your Scout Elf to receive a personalised letter from Santa and the official family Adoption Certificate.",
+            "price": 24.95,
+            "category": 2,
+            "rating": 4.8,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC12",
+            "title": "Elf on the Shelf North Pole Breakfast Party Pack",
+            "description": "Includes everything necessary to throw the perfect North Pole Breakfast. Pin the Tail on the Reindeer Game, stickers, napkins, cups, plates, hats, straws, breakfast toppers, goody bags for eight, table decor and even miniature party items for your elf. Your family can cook a big family breakfast, and offer an invitation for your official The Elf on the Shelf Scout Elf to join as a guest of honour. ",
+            "price": 24.95,
+            "category": 2,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC13",
+            "title": "The Elf on the Shelf Aqua Magic",
+            "description": "The Aqua Magic Book contains 9 pages of full colour activities and an Aqua Magic brush. Simply fill the brush with water and use on the activities to reveal the images.",
+            "price": 6.99,
+            "category": 2,
+            "rating": 3.8,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC14",
+            "title": "Claus Couture Collection Elf Care Kit (Scout Elf Not Included)",
+            "description": "Elf care to the rescue! For rough-and-tumble days, this kit contains everything needed to get your elf back on the shelf in a jolly jiffy. Santa's Instructions: Simply place the Claus Couture Collection elf clothing where your Scout Elf can see it, and he will put it on before the nightly flight to the North Pole.",
+            "price": 9.30,
+            "category": 2,
+            "rating": 4.1,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC15",
+            "title": "The Elf on the Shelf Action Figure Play Pack - Snow Sports Edition",
+            "description": "Snow Sports Edition The Elf on the Shelf® action figures are ready to ski into the season. When they are not preparing for Christmas, they love to play! It is snow much fun hitting the slopes with this action-packed snow sports set!",
+            "price": 11.95,
+            "category": 2,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC16",
+            "title": "Sitting Grinch Balloon",
+            "description": "Air inflation only - straw included, 24 x 19 inches inflated size.",
+            "price": 7.99,
+            "category": 3,
+            "rating": 4.7,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC17",
+            "title": "Snowman AirLoonz Balloon",
+            "description": "AirLoonz balloons come with two inflation points, one on the balloon and one on the base, 55 inches inflated size",
+            "price": 19.99,
+            "category": 3,
+            "rating": 4.2,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC18",
+            "title": "Nutcracker AirLoonz Balloon",
+            "description": "AirLoonz balloons come with two inflation points, one on the balloon and one on the base, 60 inches inflated size.",
+            "price": 19.99,
+            "category": 3,
+            "rating": 4.9,
+            "image": "xnull"
+        }
+    },
+
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC19",
+            "title": "Silver Merry Christmas Confetti Balloons, 5pk",
+            "description": "These fun yet elegant Christmas helium balloons will be a great finishing touch to your decorations - perfect for a Christmas Party or the day itself. To get the confetti to stick best we recommend inflating with both helium and a puff of air. Once inflated rotate the balloon whilst rubbing the sides to get the confetti to stick. Group the balloons in bunches to maximise the effect. Each pack contains 5 x 12 inches silver tree shaped confetti clear with print balloons.",
+            "price": 3.99,
+            "category": 3,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC20",
+            "title": "Confetti Filled Merry Christmas Balloons with Light Bulb Balloon Tails",
+            "description": "Add a pop of colour and fun to your decorations with these Merry Christmas confetti balloons with light bulb balloon tails. Each pack contains 5 x 12 inches Merry Christmas Balloons with balloon tails.",
+            "price": 4.99,
+            "category": 3,
+            "rating": 4.7,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC21",
+            "title": "Gonk Stocking",
+            "description": "Gonks are one of our favourite Christmas decorations, so we've made this Gonk Stocking to decorate your space with. Available in two colours, you're sure to love whichever you receive. Hang it up on your mantelpiece, around your stairs, or at the end of your bed so Santa can leave gifts in them on Christmas Eve!",
+            "price": 2.79,
+            "category": 4,
+            "rating": 4.1,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC22",
+            "title": "With Love at Christmas Stocking - White",
+            "description": "Printed with an adorable design, the With Love at Christmas Stocking will add a charming feel to your festive decor. The traditional stocking features a print with a snowman and a teddy bear in their winter warmers as they chat in the snow. It's finished with the words 'with love at Christmas' and will look fantastic hanging on the staircase, above the fireplace, and at the end of your bed.",
+            "price": 2.49,
+            "category": 4,
+            "rating": 4.2,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC23",
+            "title": "Christmas Stocking Decoration - Bear",
+            "description": "These charming Christmas stockings are ideal for decorating the home in the run-up to Christmas. Ideal to put small gifts inside for your family members on Christmas Eve.",
+            "price": 7.99,
+            "category": 4,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC24",
+            "title": "Babys First Christmas Bear Stocking",
+            "description": "Make sure you properly commemorate your child's first Christmas with this adorable Babys First Christmas Bear Stocking. With a window for you to insert a picture of your baby, this stocking can then be filled with gifts and then stored as a precious keepsake for years to come.",
+            "price": 3.99,
+            "category": 4,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC25",
+            "title": "Snowman Personalised Stocking",
+            "description": "Snowman Personalised Stocking, this stocking is perfect as you can personalise it and add any word!",
+            "price": 2.49,
+            "category": 4,
+            "rating": 3.9,
+            "image": "null"
+        }
+    }
+]
