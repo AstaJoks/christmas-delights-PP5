@@ -116,12 +116,12 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC9",
-            "title": "PSet of 6 Candy Baubles",
+            "title": "Set of 6 Candy Baubles",
             "description": "This Set of 6 Candy Baubles is a bright and unique way to decorate your tree for Christmas. The set includes six adorable baubles shaped like traditional candies, complete with twisted packaging. The baubles are finished with glitter and sequins for a shimmering effect and has pastel tones to make your tree stand out this winter.",
             "price": 2.49,
             "category": 1,
             "rating": 4.9,
-            "image": "xnull"
+            "image": "null"
         }
     },
 
@@ -144,7 +144,7 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC11",
-            "title": "The Elf On The Shelf A Christmas Tradition - Red / Blue Eye Boy",
+            "title": "The Elf On The Shelf A Christmas Tradition",
             "description": "This beloved family tradition has captured the hearts of children everywhere who embrace the magic of having a Scout Elf who reports to Santa each night during the holidays. This package has everything needed to make lasting Christmas memories! Register your Scout Elf to receive a personalised letter from Santa and the official family Adoption Certificate.",
             "price": 24.95,
             "category": 2,
@@ -158,7 +158,7 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC12",
-            "title": "Elf on the Shelf North Pole Breakfast Party Pack",
+            "title": "Elf on the Shelf Breakfast Party Pack",
             "description": "Includes everything necessary to throw the perfect North Pole Breakfast. Pin the Tail on the Reindeer Game, stickers, napkins, cups, plates, hats, straws, breakfast toppers, goody bags for eight, table decor and even miniature party items for your elf. Your family can cook a big family breakfast, and offer an invitation for your official The Elf on the Shelf Scout Elf to join as a guest of honour. ",
             "price": 24.95,
             "category": 2,
@@ -186,7 +186,7 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC14",
-            "title": "Claus Couture Collection Elf Care Kit (Scout Elf Not Included)",
+            "title": "Claus Couture Collection Elf Care Kit",
             "description": "Elf care to the rescue! For rough-and-tumble days, this kit contains everything needed to get your elf back on the shelf in a jolly jiffy. Santa's Instructions: Simply place the Claus Couture Collection elf clothing where your Scout Elf can see it, and he will put it on before the nightly flight to the North Pole.",
             "price": 9.30,
             "category": 2,
@@ -200,7 +200,7 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC15",
-            "title": "The Elf on the Shelf Action Figure Play Pack - Snow Sports Edition",
+            "title": "The Elf on the Shelf - Snow Sports Edition",
             "description": "Snow Sports Edition The Elf on the Shelf® action figures are ready to ski into the season. When they are not preparing for Christmas, they love to play! It is snow much fun hitting the slopes with this action-packed snow sports set!",
             "price": 11.95,
             "category": 2,
@@ -247,7 +247,7 @@
             "price": 19.99,
             "category": 3,
             "rating": 4.9,
-            "image": "xnull"
+            "image": "null"
         }
     },
 
@@ -256,7 +256,7 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC19",
-            "title": "Silver Merry Christmas Confetti Balloons, 5pk",
+            "title": "Silver Confetti Balloons, 5pk",
             "description": "These fun yet elegant Christmas helium balloons will be a great finishing touch to your decorations - perfect for a Christmas Party or the day itself. To get the confetti to stick best we recommend inflating with both helium and a puff of air. Once inflated rotate the balloon whilst rubbing the sides to get the confetti to stick. Group the balloons in bunches to maximise the effect. Each pack contains 5 x 12 inches silver tree shaped confetti clear with print balloons.",
             "price": 3.99,
             "category": 3,
@@ -270,7 +270,7 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC20",
-            "title": "Confetti Filled Merry Christmas Balloons with Light Bulb Balloon Tails",
+            "title": "Confetti Balloons with Light Bulb",
             "description": "Add a pop of colour and fun to your decorations with these Merry Christmas confetti balloons with light bulb balloon tails. Each pack contains 5 x 12 inches Merry Christmas Balloons with balloon tails.",
             "price": 4.99,
             "category": 3,
@@ -298,7 +298,7 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC22",
-            "title": "With Love at Christmas Stocking - White",
+            "title": "With Love at Christmas Stocking ",
             "description": "Printed with an adorable design, the With Love at Christmas Stocking will add a charming feel to your festive decor. The traditional stocking features a print with a snowman and a teddy bear in their winter warmers as they chat in the snow. It's finished with the words 'with love at Christmas' and will look fantastic hanging on the staircase, above the fireplace, and at the end of your bed.",
             "price": 2.49,
             "category": 4,
@@ -312,7 +312,7 @@
         "model": "products.product",
         "fields": {
             "sku": "XMASDEC23",
-            "title": "Christmas Stocking Decoration - Bear",
+            "title": "Christmas Stocking Decoration",
             "description": "These charming Christmas stockings are ideal for decorating the home in the run-up to Christmas. Ideal to put small gifts inside for your family members on Christmas Eve.",
             "price": 7.99,
             "category": 4,
@@ -345,6 +345,48 @@
             "price": 2.49,
             "category": 4,
             "rating": 3.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC26",
+            "title": "Elf Mates Sleeping Bags",
+            "description": "OFFICIAL BOY ELF MATES CLOTHES from the creators of The Elf on the Shelf These sleeping bags are sure to keep your Elf Mates warm on a cold night! Keep them out of mischief and place him in hard to reach places.",
+            "price": 11.97,
+            "category": 2,
+            "rating": 3.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC27",
+            "title": "The Elf on the Shelf Tradition Girl",
+            "description": "This beloved family tradition has captured the hearts of children everywhere who embrace the magic of having a Scout Elf who reports to Santa each night during the holidays. This package has everything needed to make lasting Christmas memories.",
+            "price": 33.90,
+            "category": 2,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC28",
+            "title": "Christmas Music Tree",
+            "description": "Classically festive, this Polyresin Christmas Music Tree is the perfect Christmas accessory for your home. Brilliant for placing on any table, windowsill, shelf or porch area, this traditional ornament features a fabulous tree adorned with baubles, tinsel, decorations and more for a stunningly festive feel for all to enjoy.",
+            "price": 8.99,
+            "category": 1,
+            "rating": 4.9,
             "image": "null"
         }
     }
