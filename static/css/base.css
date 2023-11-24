@@ -57,6 +57,10 @@ body {
     text-transform: uppercase;
 }
 
+hr {
+    margin-top: 2rem;
+}
+
 .card-title {
     font-weight: 800;
     font-size: 1.3rem;
@@ -291,7 +295,7 @@ img.logo {
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-weight: 100;
     border-radius: 8px;
-    padding: 2rem 2rem;
+    padding: 0.8rem 0.8rem;
     font-size: 1rem;
 }
 
@@ -300,6 +304,12 @@ img.logo {
     color: #FFFF;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-decoration: none;
+}
+
+.product-title {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
 
 /* Media Queries */
 
