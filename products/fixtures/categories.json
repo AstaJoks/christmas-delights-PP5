@@ -21,8 +21,8 @@
         "pk": 3,
         "model": "products.category",
         "fields": {
-                "name": "baloons",
-        "friendly_name": "Christmas Baloons"
+                "name": "balloons",
+        "friendly_name": "Christmas Balloons"
         }
     },
 

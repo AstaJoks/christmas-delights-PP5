@@ -18,16 +18,16 @@
                 Categories
             </a>
             <div class="dropdown-menu bg-as-body border-0" aria-labelledby="categories-link">
-                <a href="" class="dropdown-item">Decorations</a>
-                <a href="" class="dropdown-item">Elf on the Shelf</a>
-                <a href="" class="dropdown-item">Christmas Baloons</a>
-                <a href="" class="dropdown-item">Christmas Eve Stockings</a>
+                <a href="{% url 'products' %}?category=decorations" class="dropdown-item">Decorations</a>
+                <a href="{% url 'products' %}?category=elf" class="dropdown-item">Elf on the Shelf</a>
+                <a href="{% url 'products' %}?category=balloons" class="dropdown-item">Christmas Balloons</a>
+                <a href="{% url 'products' %}?category=stockings" class="dropdown-item">Christmas Eve Stockings</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link mr-5" href="#" id="sale-link" aria-haspopup="true"
+            <a class="font-weight-bold nav-link mr-5" href="{% url 'products' %}?sale" id="sale-link" aria-haspopup="true"
                 aria-expanded="false">Sale</a>
         </li>
 
