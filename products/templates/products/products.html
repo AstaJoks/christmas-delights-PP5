@@ -21,7 +21,7 @@
     <div class="row">
         <div class="product-container col-10 offset-1">
             <div class="row mt-1 mb-2"></div>
-            <div class="row">
+            <div class="row mb-5">
                 {% for product in products %}
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card h-100 border-0">
@@ -42,7 +42,7 @@
                             <div class="row">
                                 <div class="col">
                                     {% if product.on_sale %}
-                                    <p class="mb-0 mt-3 text-left">
+                                    <p class="mb-0 mt-3 text-left red-sale">
                                         Sale Price:
                                         <span>
                                             €{{ product.sale_price|floatformat:2 }}</span>

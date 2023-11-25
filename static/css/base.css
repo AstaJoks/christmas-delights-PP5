@@ -209,6 +209,9 @@ img.logo {
     font-size: 1.2rem;
 }
 
+.delivery {
+    font-size: 1.3rem;
+}
 /* Footer*/
 .footer {
     color: black;
@@ -313,6 +316,10 @@ img.logo {
 
 .text-decoration-line-through {
     text-decoration-line: line-through;
+}
+
+.red-sale {
+    color: #7f0800;
 }
 
 /* Media Queries */
