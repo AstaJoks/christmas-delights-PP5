@@ -308,7 +308,11 @@ img.logo {
 
 .product-title {
     font-weight: 800;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+}
+
+.text-decoration-line-through {
+    text-decoration-line: line-through;
 }
 
 /* Media Queries */
