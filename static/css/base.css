@@ -322,6 +322,17 @@ img.logo {
     color: #7f0800;
 }
 
+
+a {
+    color: #7f0800;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2e5f00;
+}
+
+
 /* Media Queries */
 
 /* Responsive styles for screens with a maximum width of 420px */
