@@ -1,6 +1,6 @@
-# Introduction
-
 ![CI logo](https://res.cloudinary.com/dcydt01ed/image/upload/v1699481613/logo_ejua6a.png)
+
+# Introduction
 
 Christmas Delights is a fictional B2C online store. The site will be targeted towards people who are looking to get all they need for Christmas in one place. It provides an easy to use interface where a user can easily find a Christmas supplies by searching, and make a purchase with or without registration.
 
@@ -26,17 +26,20 @@ Note: The site is for educational purposes only. To simulate a payment, please u
     - [Project Goals](#project-goals)
   - [Agile Methodology](#agile-methodology)
     - [Epics and User Stories](#epics-and-user-stories)
-  - [EPIC 1 - Base Setup](#epic-1---base-setup)
-  - [EPIC 2 - Deployment](#epic-2---deployment)
-  - [EPIC 3 - Plan and create frontend layout](#epic-3---plan-and-create-frontend-layout)
-  - [EPIC 4 - Admin functionality](#epic-4---admin-functionality)
-  - [EPIC 5 - Products](#epic-5---products)
-  - [EPIC 6 - Stand Alone Pages](#epic-6---stand-alone-pages)
-  - [EPIC 7 - User Account and Wishlist](#epic-7---user-account-and-wishlist)
-  - [EPIC 8 - Purchasing and Checkout](#epic-8---purchasing-and-checkout)
-  - [EPIC 9 - Marketing and SEO](#epic-9---marketing-and-seo)
-  - [EPIC 10 - Documentation and testing](#epic-10---documentation-and-testing)
+      - [EPIC 1 - Base Setup](#epic-1---base-setup)
+    - [EPIC 2 - Deployment](#epic-2---deployment)
+    - [EPIC 3 - Plan and create frontend layout\*\*](#epic-3---plan-and-create-frontend-layout)
+    - [EPIC 4 - Admin functionality](#epic-4---admin-functionality)
+    - [EPIC 5 - Products](#epic-5---products)
+    - [EPIC 6 - Stand Alone Pages](#epic-6---stand-alone-pages)
+    - [EPIC 7 - User Account and Wishlist](#epic-7---user-account-and-wishlist)
+    - [EPIC 8 - Purchasing and Checkout](#epic-8---purchasing-and-checkout)
+    - [EPIC 9 - Marketing and SEO](#epic-9---marketing-and-seo)
+    - [EPIC 10 - Documentation and testing](#epic-10---documentation-and-testing)
   - [The Scope Plane](#the-scope-plane)
+  - [The Skeleton Plane](#the-skeleton-plane)
+    - [Wireframes](#wireframes)
+    - [Database Design](#database-design)
 
 # User Experience (UX)
 
@@ -84,29 +87,29 @@ Github issues were used to create User Stories for the project. This is where th
 
 The project had 10 main Epics (Milestones) and 33 User Stories:
 
-## EPIC 1 - Base Setup
+#### EPIC 1 - Base Setup
 
 - User Sories
   - As a developer, I need to set up the project so that it is ready for implementing the core features.
 
-## EPIC 2 - Deployment
+### EPIC 2 - Deployment
 
 - User Stories
   - As a developer, I need to deploy the project to heroku so that it is live for customers
 
-## EPIC 3 - Plan and create frontend layout
+### EPIC 3 - Plan and create frontend layout**
 
 - User Stories
   - As a developer I can create wireframes so that the layout of the website is clear for desktop and mobile.
   - As a user I want the website to be responsive so I can view it on my mobile.
 
-## EPIC 4 - Admin functionality
+### EPIC 4 - Admin functionality
 
 - User Stories
   - As an shop administrator, I want to have access to an admin dashboard so that I can monitor and view simple statistics related to the orders of the shop.
   - As an administrator, I want to be able to add new products to the website so that I can expand the products list.
 
-## EPIC 5 - Products
+### EPIC 5 - Products
 
 - User Stories
   - As a user I want to be able to refine the list of available products by selecting a specific category so that I can easily find items that match my interests.
@@ -114,7 +117,7 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
   - As a User I want to be able to search for products in shop by entering keywords so that I can quickly find specific item of interest.
   - As a user I want to be able to refine the list of available products by selecting a specific category so that I can easily find items that match my interests.
 
-## EPIC 6 - Stand Alone Pages
+### EPIC 6 - Stand Alone Pages
 
 - User Stories
   - As a shopper I can visit the home page so that I can identify the purpose of the website.
@@ -123,14 +126,14 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
   - As a developer, I need to implement a 500 error page to alert users when an internal server error occurs.
   - As a developer, I need to implement a 403 error page to redirect unauthorised users to so that I can secure my views.
 
-## EPIC 7 - User Account and Wishlist
+### EPIC 7 - User Account and Wishlist
 
 - User Stories
   - As a developer, I need to implement allauth so that users can sign up and have access to the shop features.
   - As an user I want to be able to have a personalised user profile so that I can update my personal information.
   - AAs a authenticated user, I want to be able to save products to my Wishlist so that I can revisit and consider purchasing them later.
 
-## EPIC 8 - Purchasing and Checkout
+### EPIC 8 - Purchasing and Checkout
 
 - User Stories
   - As a user, I want to be able to add products to my shopping cart so that I can conveniently review and purchase multiple items.
@@ -138,13 +141,13 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
   - As a user, I want to be able to remove products from my shopping cart so that I can adjust my order before making a purchase.
   - As a user, I want to be able to securely make payments using Stripe so that I can complete my purchases with confident.
 
-## EPIC 9 - Marketing and SEO
+### EPIC 9 - Marketing and SEO
 
 - User Stories
   - As a shop owner, I want to improve the website's search engine optimization (SEO) so that the website can rank higher in search engine results.
   - As a user, I want to sign up for newsletters on the website so that I can keep up with updates and deals.
 
-## EPIC 10 - Documentation and testing
+### EPIC 10 - Documentation and testing
 
 - Tasks
   - Complete ReadMe documentation.
@@ -161,3 +164,60 @@ Back to [top](#table-of-contents
 - Restricted detail blog view while unauthorised user.
 
 Back to [top](#table-of-contents)
+
+## The Skeleton Plane
+
+### Wireframes
+
+- Home Page
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Home Page"></p>
+
+- Products
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Blog"></p>
+
+- Product Detail
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Post Detail"></p>
+
+- Log In
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Log In"></p>
+
+- Register
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Register"></p>
+
+- Shopping Cart
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Shopping Cart"></p>
+
+- Checkout
+
+   <p><img src="h" width="400px" height="auto"  alt="Wireframe Checkout"></p>
+
+- My Profile
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe My Profile"></p>
+
+- Wishlist
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Wishlist"></p>
+
+- Contact Us
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Contact Us"></p>
+
+- 404 Page
+
+   <p><img src="" width="400px" height="auto"  alt="Wireframe 404 Page"></p>
+
+
+### Database Design
+
+- The database models and fields were planned and outlined using an Database Diagram in [Lucidchart](https://lucid.co/).
+
+<p><img src="" width="700px" height="auto"  alt="Database Design"></p>
+
+Back to [top](#table-of-contents)<hr>
