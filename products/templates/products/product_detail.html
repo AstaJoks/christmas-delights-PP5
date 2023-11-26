@@ -48,9 +48,23 @@
                 {% endif %}
                 {% if product.category %}
                 <p class="small mt-1 mb-0">
+                    {% if product.category.name == 'decorations' %}
                     <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                        <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                        <i class="fa-solid fa-gifts"></i> {{ product.category.friendly_name }}
                     </a>
+                    {% elif product.category.name == 'elf_on_the_shelf' %}
+                    <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                        <i class="fa-solid fa-candy-cane"></i> {{ product.category.friendly_name }}
+                    </a>
+                    {% elif product.category.name == 'christmas_balloons' %}
+                    <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                        <i class="fa-solid fa-map-pin"></i> {{ product.category.friendly_name }}
+                    </a>
+                    {% elif product.category.name == 'christmas_eve_stockings' %}
+                    <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                        <i class="fa-solid fa-socks mr-2"></i>{{ product.category.friendly_name }}
+                    </a>
+                    {% endif %}>
                 </p>
                 {% endif %}
                 {% if product.rating %}
@@ -63,4 +77,5 @@
         </div>
     </div>
 </div>
+
 {% endblock %}
