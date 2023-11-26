@@ -344,6 +344,34 @@ a:hover {
     cursor: pointer;
 }
 
+.shopping-btn {
+    color: #FFFF;
+    background-color: #2e5f00;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 100;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+
+.shopping-btn:hover {
+    background-color: #7f0800;
+    color: #FFFF;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+}
+
+.bag-btn {
+    color: #FFFF;
+    background-color: #000000;
+    border-radius: 8px;
+    font-weight: 400;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+
 /* Media Queries */
 
 /* Responsive styles for screens with a maximum width of 420px */
