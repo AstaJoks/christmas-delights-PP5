@@ -12,7 +12,7 @@
         "pk": 2,
         "model": "products.category",
         "fields": {
-            "name": "elf",
+            "name": "elf_on_the_shelf",
             "friendly_name": "Elf on The Shelf"
         }
     },
@@ -21,7 +21,7 @@
         "pk": 3,
         "model": "products.category",
         "fields": {
-                "name": "balloons",
+                "name": "christmas_balloons",
         "friendly_name": "Christmas Balloons"
         }
     },
@@ -30,7 +30,7 @@
         "pk": 4,
         "model": "products.category",
         "fields": {
-            "name": "stockings",
+            "name": "christmas_eve_stockings",
             "friendly_name": "Christmas Eve Stockings"
         }
     }
