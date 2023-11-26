@@ -65,7 +65,7 @@
     <!-- SCHOPPING CART -->
     <li class="list-inline-item">
         <a class="{% if grand_total %}alt-text-primary font-weight-bold{% else %}text-black{% endif %} d-block d-lg-none"
-            href="#">
+            href="{% url 'view_bag' %}">
             <div class="text-center">
                 <div><i class="nav-icon brand-color-mobile fas fa-shopping-cart"></i></div>
                 <p class="my-0 nav-link">
