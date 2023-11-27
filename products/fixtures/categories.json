@@ -33,5 +33,14 @@
             "name": "christmas_eve_stockings",
             "friendly_name": "Christmas Eve Stockings"
         }
+    },
+
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "fancy_christmas_clothes",
+            "friendly_name": "Fancy Christmas Clothes"
+        }
     }
 ]

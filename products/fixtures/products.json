@@ -389,5 +389,61 @@
             "rating": 4.9,
             "image": "null"
         }
+    },
+
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC29",
+            "title": "Deluxe Ms Santa Costume",
+            "description": "Dress, Belt, Cape, Boot covers & Hat.",
+            "price": 39.99,
+            "category": 5,
+            "rating": 5,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC30",
+            "title": "Santa Claus Costume",
+            "description": "Hat, Jacket, Belt and Trousers.",
+            "price": 39.99,
+            "category": 5,
+            "rating": 5,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC31",
+            "title": " The Grinch Costume",
+            "description": " Top, Trousers , Mask & Hat.",
+            "price": 33.99,
+            "category": 5,
+            "rating": 4.9,
+            "image": "null"
+        }
+    },
+
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "XMASDEC32",
+            "title": "Miss Snowman Costume",
+            "description": "This four piece Miss Snowman costume features a snowy white dress with soft, fleece feel fabric and three oversized pom poms to front. Also included is a wide, brown fabric belt with adjustable velcro fastening, a stripey scarf and a felt snowman top hat.",
+            "price": 33.99,
+            "category": 5,
+            "rating": 5,
+            "image": "null"
+        }
     }
 ]
