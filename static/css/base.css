@@ -371,7 +371,10 @@ a:hover {
     margin-left: 1rem;
 }
 
-
+.decr-btn {
+    color: #FFFF;
+    background-color: #2e5f00;
+}
 /* Media Queries */
 
 /* Responsive styles for screens with a maximum width of 420px */
