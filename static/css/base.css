@@ -389,22 +389,46 @@ a:hover {
         margin-bottom: 0 !important;
     }
 
+    .nav-link {
+        padding: 0.1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
     .delivery {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .font-weight-bold {
         font-size: 1rem;
+    }
+
+    .btn {
+        padding: 1.2rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .bag-btn {
+        padding: 1.2rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .increment-qty,
+    .decrement-qty {
+        padding: .25rem .5rem !important;
     }
 }
 
 @media (max-width: 420px) {
 
     .hero-text h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .h4 {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }
