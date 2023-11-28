@@ -37,7 +37,6 @@
 </head>
 
 <body>
-
     <!-- Nav Bar section -->
     <header class="container-fluid sticky-top">
         <div class="row bg-as-body d-none d-lg-flex p-1">
@@ -107,8 +106,6 @@
                 </ul>
             </div>
         </div>
-        <!-- Nav Bar Section -->
-
         <div class="row bg-as-body">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
@@ -125,90 +122,94 @@
                 </div>
             </div>
     </header>
-    
-    {% if messages %}
-    <div class="message-container"></div>
-    {% for message in messages %}
-    {% with message.level as level %}
-    {% if level == 40 %}
-    {% include 'includes/toasts/toast_error.html' %}
-    {% elif level == 30 %}
-    {% include 'includes/toasts/toast_warning.html' %}
-    {% elif level == 25 %}
-    {% include 'includes/toasts/toast_success.html' %}
-    {% else %}
-    {% include 'includes/toasts/toast_info.html' %}
-    {% endif %}
-    {% endwith %}
-    {% endfor %}
-    </div>
-    {% endif %}
 
-    
-    {% block postloadjs %}
-    <script type="text/javascript">
-        $('.toast').toast('show');
-    </script>
+    {% block content %}
     {% endblock %}
-</body>
 
-<!-- Footer -->
-<footer class="footer mt-auto">
-    <div class="footer-content position-relative">
-        <div class="container">
-            <div class="row footer-row">
-
-                <div class="col-lg-4 col-md-3 footer-col">
-                    <h5 class="h4">Useful Links</h5>
-                    <ul>
-                        <li><a href="{% url 'home' %}">Home</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-col">
-                <!-- Begin Mailchimp Signup Form -->
-                </div>
-            
-                <!-- Contact Us Section-->
-                <div class="col-lg-4 col-md-3 footer-col">
-                    <h5 class="h4">Contact Us</h5>
-                    <div class="contact-links">
-                        <a href="tel:353123456789">Phone: +353 123 456789</a>
-                        <a href="mailto:info@christmasdelights.ie">Email: info@christmasdelights.ie</a>
+    <!-- Footer -->
+    <footer class="footer mt-auto">
+        <div class="footer-content position-relative">
+            <div class="container">
+                <div class="row footer-row">
+    
+                    <div class="col-lg-4 col-md-3 footer-col">
+                        <h5 class="h4">Useful Links</h5>
+                        <ul>
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 footer-col">
+                        <!-- Begin Mailchimp Signup Form -->
+                    </div>
+    
+                    <!-- Contact Us Section-->
+                    <div class="col-lg-4 col-md-3 footer-col">
+                        <h5 class="h4">Contact Us</h5>
+                        <div class="contact-links">
+                            <a href="tel:353123456789">Phone: +353 123 456789</a>
+                            <a href="mailto:info@christmasdelights.ie">Email: info@christmasdelights.ie</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+    
                 <!-- Social Media links -->
                 <!-- Font awesome icons as the clickable links to social media sites. Links open in a new tab -->
                 <div class="social-links d-flex">
-                    <a href="https://facebook.com" class="d-flex align-items-center justify-content-center" 
-                        target="_blank"
+                    <a href="https://facebook.com" class="d-flex align-items-center justify-content-center" target="_blank"
                         rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
                         <i class="fab fa-facebook ms-3"></i></a>
-                    <a href="https://instagram.com" class="d-flex align-items-center justify-content-center" 
-                        target="_blank"
+                    <a href="https://instagram.com" class="d-flex align-items-center justify-content-center" target="_blank"
                         rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
                         <i class="fab fa-instagram ms-3"></i></a>
-                    <a href="https://github.com/AstaJoks" class="d-flex align-items-center justify-content-center" 
-                        target="_blank"
-                        rel="noopener" aria-label="Visit my GitHub page (opens in a new tab)">
+                    <a href="https://github.com/AstaJoks" class="d-flex align-items-center justify-content-center"
+                        target="_blank" rel="noopener" aria-label="Visit my GitHub page (opens in a new tab)">
                         <i class="fab fa-github ms-3"></i></a>
                     <a href="https://www.pinterest.com/" class="d-flex align-items-center justify-content-center"
-                        target="_blank"
-                        rel="noopener" aria-label="Visit the Pinterest page for ideas (opens in a new tab)">
+                        target="_blank" rel="noopener" aria-label="Visit the Pinterest page for ideas (opens in a new tab)">
                         <i class="fab fa-pinterest ms-3"></i></a>
                 </div>
             </div>
-    </div>
+        </div>
+        <div class="copyright text-center p-2 pb-3">
+            © 2023
+            <a href="{% url 'home' %}">Christmas Delights</a>
+        </div>
+    </footer>
 
-    <div class="copyright text-center p-2 pb-3">
-        © 2023
-        <a href="{% url 'home' %}">Christmas Delights</a>
+    <!-- Messages Container -->
+    
+    {% if messages %}
+    <div class="message-container">
+        {% for message in messages %}
+        {% with message.level as level %}
+        {% if level == 40 %}
+        {% include 'includes/toasts/toast_error.html' %}
+        {% elif level == 30 %}
+        {% include 'includes/toasts/toast_warning.html' %}
+        {% elif level == 25 %}
+        {% include 'includes/toasts/toast_success.html' %}
+        {% else %}
+        {% include 'includes/toasts/toast_info.html' %}
+        {% endif %}
+        {% endwith %}
+        {% endfor %}
     </div>
-</footer>
+    {% endif %}
+
+    {% block page_header %}
+    {% endblock %}
+    
+    <!-- Toasts -->
+    {% block postloadjs %}
+    <script>
+        $('.toast').toast('show');
+    </script>
+    {% endblock %}
+
+</body>
 
 </html>
