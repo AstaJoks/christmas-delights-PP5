@@ -168,9 +168,7 @@ hr {
     border-bottom: 1px solid white;
 }
 
-
 /* Navbar*/
-
 img.logo {
     width: 25vh;
 }
@@ -212,6 +210,7 @@ img.logo {
 .delivery {
     font-size: 1.3rem;
 }
+
 /* Footer*/
 .footer {
     color: black;
@@ -267,7 +266,6 @@ img.logo {
 }
 
 /* Mail Chimp */
-
 #mc_embed_signup form {
     text-align: center;
     margin: 0 20px;
@@ -329,9 +327,7 @@ img.logo {
     padding: 10px;
 }
 
-
 /* Products Page */
-
 .overlay {
     height: 100%;
     width: 100%;
@@ -429,7 +425,6 @@ a:hover {
 }
 
 /* Bootstrap toasts */
-
 .message-container {
     position: fixed;
     top: 72px;
@@ -459,14 +454,14 @@ a:hover {
 
 .toast-btn {
     color: #FFFF;
-        background-color: #2e5f00;
-        font-weight: 100;
-        padding: 1rem 1rem;
-        font-size: 1rem;
+    background-color: #2e5f00;
+    font-weight: 100;
+    padding: 1rem 1rem;
+    font-size: 1rem;
 }
 
 .bg-color {
-    background-color: #eeff00;
+    background-color: #d9f1c1;
 }
 
 /* Convenience classes - colors copied from Bootstrap */
@@ -508,10 +503,9 @@ a:hover {
     overflow-y: auto;
 }
 
+
 /* Media Queries */
-
 /* Responsive styles for screens with a maximum width of 420px */
-
 @media (max-width: 991px) {
 
     .navbar-icons {
