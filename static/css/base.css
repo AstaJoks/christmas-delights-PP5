@@ -377,6 +377,24 @@ a:hover {
     color: #FFFF;
     background-color: #2e5f00;
 }
+
+/* Bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
 /* Media Queries */
 
 /* Responsive styles for screens with a maximum width of 420px */
