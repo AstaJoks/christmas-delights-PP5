@@ -2,6 +2,9 @@
 {% load static %}
 {% load bag_tools %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+{% endblock %}
 
 {% block page_header %}
     <div class="container header-container">
@@ -107,7 +110,7 @@
                         <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
                     </fieldset>
 
-                    <div class="submit-button text-right mt-5 mb-2">                    
+                    <div class="submit-button text-right mt-5 mb-5">                    
 						<a href="{% url 'view_bag' %}" class="shopping-btn">
 							<span class="icon">
 								<i class="fas fa-chevron-left"></i>
