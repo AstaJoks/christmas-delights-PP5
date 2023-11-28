@@ -40,6 +40,34 @@ Note: The site is for educational purposes only. To simulate a payment, please u
   - [The Skeleton Plane](#the-skeleton-plane)
     - [Wireframes](#wireframes)
     - [Database Design](#database-design)
+  - [The Structure Plane](#the-structure-plane)
+  - [Features](#features)
+    - [Navigation](#navigation)
+    - [Product Navigation](#product-navigation)
+    - [Home Screen](#home-screen)
+    - [Delivery Banner](#delivery-banner)
+      - [Hero Section](#hero-section)
+      - [Popular Categories Section](#popular-categories-section)
+    - [Why Shop With Us Section](#why-shop-with-us-section)
+    - [Footer](#footer)
+    - [Contact Us Page](#contact-us-page)
+    - [FAQs Page](#faqs-page)
+    - [Log In Page](#log-in-page)
+    - [Register Page](#register-page)
+    - [Log Out Page](#log-out-page)
+    - [Products Page](#products-page)
+    - [Product Details Page](#product-details-page)
+    - [Wishlist](#wishlist)
+    - [Shopping Cart Page](#shopping-cart-page)
+    - [Checkout Page](#checkout-page)
+    - [Profile](#profile)
+    - [404 Page](#404-page)
+    - [403 Page](#403-page)
+    - [500 Page](#500-page)
+    - [Admin Page](#admin-page)
+    - [Success Messages](#success-messages)
+    - [Favicon](#favicon)
+  - [Features Left To Implement](#features-left-to-implement)
 
 # User Experience (UX)
 
@@ -155,6 +183,7 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
 
 Back to [top](#table-of-contents
 
+
 ## The Scope Plane
 
 - Home page with shop introduction and most popular product categories.
@@ -164,6 +193,7 @@ Back to [top](#table-of-contents
 - Restricted detail blog view while unauthorised user.
 
 Back to [top](#table-of-contents)
+
 
 ## The Skeleton Plane
 
@@ -220,4 +250,212 @@ Back to [top](#table-of-contents)
 
 <p><img src="" width="700px" height="auto"  alt="Database Design"></p>
 
+Back to [top](#table-of-contents)
+
+
+## The Structure Plane
+
+## Features
+
+### Navigation
+
+- The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. This will allow users to view the site from any device and not take up too much space on mobile devices.
+
+<p><img src="" width="600px" height="auto"  alt="Nav Bar Login Mobile"></p>
+
+- Icons on the navigation bar change depending on whether the user is logged in or not.
+
+    - If the user logs in or signs up, those two tabs are removed to be replaced with a Logout tab.
+
+    <p><img src="" width="800px" height="auto"  alt="Nav Bar Login"></p>
+
+    - Once the user logs in or register, a completely new icon appears called Wishlist.
+
+    <p><img src="" width="800px" height="auto"  alt="Nav Bar Logout"></p>
+
+### Product Navigation
+
+- The product navigation is displayed on all pages and drops down into hamburger menu on smaller devices. It provides the links to all products section and to contact us page, lists product by the category and products on sale.
+
+<p><img src="" width="800px" height="auto"  alt="Product Nav"></p>
+
+### Home Screen
+
+- Home Page is a landing page that provides an overview of the website and it's features.
+- It is split into multiple sections, with the information easy to read and eye catching to a visitor.
+
+### Delivery Banner
+
+- Delivery Banner is displayed on all pages and informs the visitor about the option to get the free delivery.
+
+<p><img src="" width="800px" height="auto"  alt="Delivery Banner"></p>
+
+#### Hero Section
+
+- In the Hero Section there is a large Hero image to catch the user's eye, text to introduce the shop.
+- There is a 'Shop Now' button that links to the product details page.
+
+<p><img src="" width="600px" height="auto"  alt="Hero Section"></p>
+ 
+#### Popular Categories Section
+
+- Below the Hero section there is Popular Categories section to show the links to the most popular products.
+
+<p><img src="" width="600px" height="auto"  alt="About Us section"></p>
+
+### Why Shop With Us Section
+
+- The "Why Shop With Us" section gives users a quick summary of reasons to shop with this store.
+
+<p><img src="" width="600px" height="auto"  alt="Popular Categories section"></p>
+
+### Footer
+
+- The footer is used across all pages, with links to Contact, FAQs, Privacy Policies and an email address.
+
+- The footer also has our newsletter signup, generated through MailChimp. This makes it available across every page to maximise the chance of someone signing up.
+
+<p><img src="" width="700px" height="auto"  alt="Footer"></p>
+
 Back to [top](#table-of-contents)<hr>
+
+### Contact Us Page
+
+- The Contact feature can be found from the nav bar and allows both signed in users and anonymous users to contact the site admin.
+- Contact Us Page contains a form with the contact reason option, the user details and the message.
+
+<p><img src="" width="600px" height="auto"  alt="Contact Us"></p>
+
+### FAQs Page
+
+- The FAQs page gives the user information about shipping, cancellations, order modifications and payment options.
+- There is a link system at the top of the page to allow users to quickly get to the section they need.
+
+<p><img src="" width="600px" height="auto"  alt="FAQs Page"></p>
+
+### Log In Page
+
+- The Log In page is accessed from the navigation bar.
+- The Log In page contains a link to the Sign Up page for the user who may have misclicked and needs to Sign Up rather than log in.
+- It uses django-allauth to provide all the settings for user authentication.
+- Styles are consistent with the rest of the website.
+
+<p><img src="" width="600px" height="auto"  alt="Login Page"></p>
+
+### Register Page
+
+- The Register page is accessed from the navigation bar.
+- The Register page contains a link to the Log In page for the user who may have misclicked and already has an account.
+- It uses django-allauth to provide all the settings for user authentication:
+  - Unique username,
+  - Email address,
+  - Strength of password.
+- Styles are consistent with the rest of the website.
+
+<p><img src="" width="600px" height="auto"  alt="Register Page"></p>
+
+### Log Out Page
+
+- The Log Out page can only be accessed from the navigation bar and only when the user is logged in.
+- The Log Out page has a button for users to confirm they wish to log out or the button to cancel the request.
+- It uses django-allauth to provide all the settings for user authentication.
+- Styles are consistent with the rest of the website.
+
+<p><img src="" width="600px" height="auto"  alt="Log Out"></p>
+
+Back to [top](#table-of-contents)
+
+### Products Page
+
+- The Products Page lists all products initially.
+- This can be changed by choosing a category from the drop down navbar menu or by using the selector box to sort items.
+- Each individual product has a card with details listed (title, price).
+- Each product can also be added to a logged in users wishlist if they click the heart icon.
+- Clicking on the "View Product" button will bring the user to the product detail page for that item.
+
+<p><img src="" width="600px" height="auto"  alt="Products Page"></p>
+
+### Product Details Page
+
+- The product details page shows a larger product image, a description for the product, as well as allowing the user to add the required quantity of products to their cart.
+
+<p><img src="" width="600px" height="auto"  alt="Product Detail Page"></p>
+
+### Wishlist
+
+- The Wishlist page allows users to have a list of all the products they have added to their Wishlist, by clicking the heart icon on each product.
+- On the Wishlist page, there is ashort summary of the product, as well as a link to the product detail page, which allows users to add it to their cart.
+- The page also has a remove option, which allows users to remove product from their Wishlist.
+
+<p><img src="" width="600px" height="auto"  alt="Wishlist Page"></p>
+
+### Shopping Cart Page
+
+- The cart page shows everything a user has in their cart currently.
+- This page allows for updating quantities, deleting products from their cart and seeing details of each product.
+- The subtotals are calculated automatically and if a product is on sale, it will show the original price of each item and the sale price.
+
+<p><img src="" width="600px" height="auto"  alt="Shopping Cart Page"></p>
+
+### Checkout Page
+
+- The checkout page shows the products, prices, includes a users information and a stripe element for secure card payments.
+- On successful checkout, an order summary page is shown and has a link to brows more products after.
+
+<p><img src="" width="600px" height="auto"  alt="Checkout Page"></p>
+
+### Profile
+
+- The Account Profile page has a tabbed dashboard which allows users to update their information - name and shipping address - which can be used for a quicker checkout process.
+- This Profile page also shows the users Order History, which allows them to see the summary of all past purchases.
+
+<p><img src="" width="600px" height="auto"  alt="Profile Page"></p>
+
+- On this dashboard, the user also has the option to delete their profile. This deletes all associated order histories and information. There is a separate page for deletion confirmation.
+
+<p><img src="" width="600px" height="auto"  alt="Profile Page"></p>
+
+Back to [top](#table-of-contents)
+
+### 404 Page
+
+- The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
+
+<p><img src="h" width="600px" height="auto"  alt="404 Page"></p>
+
+### 403 Page
+
+- A 403 error page has been implemented to provide feedback to the user when they try to access unauthorized content. Users will be directed to this page if they alter the URL's and attempt to edit, delete
+
+<p><img src="" width="600px" height="auto"  alt="403 Page"></p>
+
+### 500 Page
+
+- A 500 error page has been displayed to alert users when an internal server error occurs. The message relays to users that the problem is on our end, not theirs.
+
+<p><img src="" width="600px" height="auto"  alt="500 Page"></p>
+
+### Admin Page
+
+- The admin dashboard is restricted to Super Users and anyone the Super User designates as staff.
+
+### Success Messages
+
+- Success messages are implemented throughout the website as the confirmation for the user that his/her action is completed successfully.
+
+<p><img src="" width="600px" height="auto"  alt="Success Messages"></p>
+
+### Favicon 
+
+ - A favicon was added the website to enable users to easily locate the website in the browser when multiple tabs are open.
+
+ <p><img src="" width="400px" height="auto"  alt="Favicon"></p>
+
+## Features Left To Implement
+
+- There are a number of features which would be great to implement in the future:
+
+   - Currently the product ratings are just random numbers entered when the product is being added (initally with a fixtures file) but I would like for users to also be able to add a product rating too which is caluclated as an average.
+   - ability users to login with their social media accounts.
+
+Back to [top](#table-of-contents)
