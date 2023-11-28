@@ -225,7 +225,7 @@ img.logo {
 }
 
 .copyright {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .footer-container {
@@ -266,9 +266,59 @@ img.logo {
     margin: 0;
 }
 
+/* Mail Chimp */
+
+#mc_embed_signup form {
+    text-align: center;
+    margin: 0 20px;
+}
+
+#mc_embed_signup h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+#mc_embed_signup .mc-field-group label {
+    padding-top: 5px;
+}
+
+#mc_embed_signup .helper_text {
+    display: none;
+}
+
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    text-indent: 2%;
+}
+
+#mc_embed_signup .foot {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#mc_embed_signup .button {
+    color: #FFFF;
+    background-color: #7f0800;
+    border-radius: 4px;
+    border: 0 none;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #2e5f00;
+}
+
 .social-links {
     justify-content: center;
     font-size: 1.3em;
+    margin-top: 2rem;
 }
 
 .social-links a {
