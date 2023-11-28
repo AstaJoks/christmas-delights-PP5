@@ -455,7 +455,7 @@ Back to [top](#table-of-contents)
 
 - There are a number of features which would be great to implement in the future:
 
-   - Currently the product ratings are just random numbers entered when the product is being added (initally with a fixtures file) but I would like for users to also be able to add a product rating too which is caluclated as an average.
-   - ability users to login with their social media accounts.
+  - Currently the product ratings are just random numbers entered when the product is being added (initally with a fixtures file) but I would like for users to also be able to add a product rating too which is caluclated as an average.
+  - ability users to login with their social media accounts.
 
 Back to [top](#table-of-contents)
