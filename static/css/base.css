@@ -464,6 +464,10 @@ a:hover {
     background-color: #d9f1c1;
 }
 
+.text-info {
+    color: #2e5f00 !important;
+}
+
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
