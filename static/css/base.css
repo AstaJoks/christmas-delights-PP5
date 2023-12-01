@@ -418,7 +418,7 @@ input[name='q']::placeholder {
     background-color: #000000;
     border-radius: 8px;
     font-weight: 400;
-    padding: 1rem 1rem;
+    padding: .9rem .9rem;
     font-size: 1rem;
     margin-left: 1rem;
 }
@@ -641,23 +641,49 @@ input[name='q']::placeholder {
         font-size: 1rem;
     }
 
-    .btn {
+    .bag-btn {
+        padding: 0.6rem 0.6rem;
+        font-size: .8rem;
+        margin-top: 3px !important;
+    }
+
+    .shopping-btn {
+        padding: 0.8rem .8rem;
+        font-size: 0.8rem;
+    }
+
+    .bag-mobile-btn {
+        color: #FFFF;
+        background-color: #000000;
+        border-radius: 8px;
+        padding: .5rem .5rem;
+        font-size: .8rem;
+        margin-left: .8rem;
+    }
+
+    .shopping-mobile-btn {
+        color: #FFFF;
+        background-color: #2e5f00;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-weight: 100;
+        border-radius: 8px;
         padding: .5rem .5rem;
         font-size: .8rem;
     }
 
-    .bag-btn {
-        padding: .4rem .4rem;
-        font-size: .8rem;
-    }
-
-    .shopping-btn {
-        padding: .375rem .375rem;
-        font-size: .8rem;
-    }
+    .shopping-mobile-btn:hover {
+        background-color: #7f0800;
+        color: #FFFF;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-decoration: none;
+        }
 
     .summary {
         font-size: .8rem;
+    }
+
+    .text-danger-mobile {
+        font-size: 0.8rem;
     }
 }
 
