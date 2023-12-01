@@ -428,6 +428,22 @@ input[name='q']::placeholder {
     background-color: #2e5f00;
 }
 
+.add-product-btn {
+    color: #FFFF;
+    background-color: #000000;
+    border-radius: 8px;
+    padding: .8rem .8rem;
+    margin-left: 1rem;
+}
+
+.cancel-btn {
+    color: #FFFF;
+    background-color: #2e5f00;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+}
+
 /* Bootstrap toasts */
 .message-container {
     position: fixed;
