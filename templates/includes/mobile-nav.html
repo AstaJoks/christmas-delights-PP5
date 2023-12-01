@@ -32,17 +32,17 @@
     </li>
     <!-- ACCOUNTS -->
     <li class="list-inline-item dropdown">
-        <a class="navbar-right d-block d-lg-none" href="#" id="mobile-user-options" data-toggle="dropdown"
+        <a class="d-block d-lg-none" href="#" id="mobile-user-options" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <div class="text-center">
                 <div><i class="brand-color-mobile fas fa-user"></i></div>
-                <p class="my-0 nav-link">My Account</p>
+                <p class="my-0 nav-link">Account</p>
             </div>
         </a>
         <div class="dropdown-menu bg-as-body border-0">
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
-            <a href="#" class="dropdown-item">Product Management</a>
+            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
             {% endif %}
             <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -54,7 +54,7 @@
     </li>
     {% if request.user.is_authenticated %}
     <li class="list-inline-item">
-        <a class="navbar-right d-block d-lg-none" href="#">
+        <a class="d-block d-lg-none" href="#">
             <div class="text-center">
                 <div><i class="brand-color-mobile fas fa-heart"></i></div>
                 <p class="my-0 nav-link">Wishlist</p>
