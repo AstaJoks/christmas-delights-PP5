@@ -204,12 +204,14 @@
                 <span>Back to My Account</span>
             </a>
             {% else %}
+            <div class="mb-5">
             <a href="{% url 'products' %}?sale" class="product-btn">
                 <span class="icon mr-2">
                     <i class="fa-solid fa-check"></i>
                 </span>
                 <span class="text-uppercase">Check out our sale items!</span>
             </a>
+            </div>
             {% endif %}
         </div>
     </div>

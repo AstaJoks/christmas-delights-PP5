@@ -679,7 +679,7 @@ input[name='q']::placeholder {
         }
 
     .summary {
-        font-size: .8rem;
+        font-size: .85rem;
     }
 
     .text-danger-mobile {
