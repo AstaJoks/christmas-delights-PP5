@@ -46,15 +46,19 @@
                 <!-- Link to View Product -->
                 <div class="wishlist mb-3" data-label="View Product:">
                     View Product:
-                    <a href="{% url 'product_detail' product.id %}" aria-label="Link to View Product Detail Page">
-                        <i class="fas fa-eye text-muted"></i>
+                    <a href="{% url 'product_detail' product.id %}"
+                        aria-label="Link to View Product Detail Page"
+                        class="view-icon">
+                        <i class="fas fa-eye"></i>
                     </a>
                 </div>
                 <!-- Link to Remove Product -->
                 <div class="wishlist mb-3" data-label="Remove Product:">
                     Remove Product:
-                    <a href="{% url 'remove_wishlist' product.id %}?next={% url 'wishlist' %}" aria-label="Link to Remove Product">
-                        <i class="fas fa-minus-circle text-muted"></i>
+                    <a href="{% url 'remove_wishlist' product.id %}?next={% url 'wishlist' %}"
+                        aria-label="Link to Remove Product"
+                        class="remove-icon">
+                        <i class="fa-solid fa-xmark"></i>
                     </a>
                 </div>
             </div>
@@ -65,7 +69,7 @@
             </div>
             {% endif %}
             {% endfor %}
-        </div>
+            </div>
 
         <!-- Table only shows on screens larger than 768px -->
         <div class="table-responsive rounded-0">
