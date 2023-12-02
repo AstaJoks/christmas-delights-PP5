@@ -634,6 +634,14 @@ input[name='q']::placeholder {
     color: #2e5f00;
 }
 
+/* Faqs */
+
+.faq-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
 
 /* Media Queries *
 

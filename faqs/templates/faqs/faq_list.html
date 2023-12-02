@@ -14,6 +14,10 @@
                     <div class="question"><strong>{{ faq.question }}</strong></div>
                     <div class="answer pt-3">{{ faq.answer }}</div>
                 </div>
+                <p class="text-center mt-5">
+                    For any questions, please email us at support@christmasdelights.ie
+                    or fill out our <a href="{% url 'contact' %}">Contact Us Form</a>.
+                </p>
                 {% empty %}
                 <p class="text-center">No FAQs available.</p>
                 {% endfor %}
@@ -22,7 +26,5 @@
         </div>
     </div>
 </div>
-
-
 
 {% endblock %}
