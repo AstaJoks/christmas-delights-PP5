@@ -438,7 +438,7 @@ input[name='q']::placeholder {
 
 .cancel-btn {
     color: #FFFF;
-    background-color: #2e5f00;
+    background-color: #7f0800;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
     padding: 1rem 1rem;
@@ -607,6 +607,17 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+
+.card-body-contact {
+    padding: 2rem;
+}
+
+.cancel-contact-btn {
+    color: #FFFF;
+    background-color: #7f0800;
+    border-radius: 8px;
+    padding: .8rem .8rem;
+}
 
 /* Media Queries */
 
