@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="overlay"></div>
+<div class="main-container col-lg-11 mx-auto pt-3 pb-3 mt-2 mt-lg-4 mb-4 bg-white">
+    <h1 class="mb-3 text-center">Frequently Asked Questions</h1>
+    <div class="pt-3">
+        <div class="col-12 mb-4 mb-lg-3">
+            <div class="col-12 col-xl-10  p-0 mx-auto">
+                {% for faq in faqs %}
+                <div class="faq-item">
+                    <div class="question"><strong>{{ faq.question }}</strong></div>
+                    <div class="answer pt-3">{{ faq.answer }}</div>
+                </div>
+                {% empty %}
+                <p class="text-center">No FAQs available.</p>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

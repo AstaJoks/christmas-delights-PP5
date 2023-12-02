@@ -37,7 +37,7 @@
                 </div>
                 <div data-label="Price:" class="mb-3">
                     <div>
-                        <p class="mb-0 pb-1"><span class="text-left h5 brand-font">€{{ product.price }}</span></p>
+                        <p class="mb-0 pb-1"><span class="text-left h5">€{{ product.price }}</span></p>
                         {% if product.on_sale %}
                         <p class="mb-0"><s>€{{ product.sale_price|floatformat:2 }}</s></p>
                         {% endif %}
@@ -126,18 +126,18 @@
             </table>
         </div>
         <!-- if no products exist in the users wishlist -->
-        {% else %}
-        <div class="row">
-            <div class="col-12">
-                <p class="text-center text-black mt-3 h5">Your Wishlist is currently empty - click the <span
+            {% else %}
+            <div class="row">
+                <div class="col-12">
+                        <p class="text-center text-black mt-3 h5">Your Wishlist is currently empty - click the <span
                         class="wishlist-icon"><i class="fas fa-heart fa-fw"></i></span> icon to add some!</p>
-                <div class="text-center mt-4">
-                    <a href="{% url 'products' %}" class="product-btn mt-1">
+                    <div class="text-center mt-4">
+                        <a href="{% url 'products' %}" class="product-btn mt-1">
                         Go to Products
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
         {% endif %}
     </div>
 
