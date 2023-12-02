@@ -105,13 +105,15 @@
                         </td>
                         <td class="wishlist" data-label="View Product:">
                             <a href="{% url 'product_detail' product.id %}"
-                                aria-label="Link to View Product Detail Page">
-                                <i class="fas fa-eye text-muted"></i>
+                                aria-label="Link to View Product Detail Page"
+                                class="view-icon">
+                                <i class="fas fa-eye"></i>
                             </a>
                         </td>
                         <td class="wishlist" data-label="Remove Product:">
-                            <a href="{% url 'remove_wishlist' product.id %}?next={% url 'wishlist' %}" aria-label="Link to Remove Product">
-                                <i class="fas fa-minus-circle text-muted"></i>
+                            <a href="{% url 'remove_wishlist' product.id %}?next={% url 'wishlist' %}" aria-label="Link to Remove Product"
+                            class="remove-icon">
+                                <i class="fa-solid fa-xmark"></i>
                             </a>
                         </td>
                     </tr>

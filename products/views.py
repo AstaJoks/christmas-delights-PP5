@@ -6,6 +6,8 @@ from django.db.models.functions import Lower
 
 from .models import Product, Category
 from .forms import ProductForm
+from profiles.models import UserProfile
+from wishlist.models import Wishlist
 
 # Create your views here.
 
@@ -14,11 +16,17 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
+    user = request.user
     query = None
     categories = None
     sale = False
     sort = None
     direction = None
+
+    if user.is_authenticated:
+        wishlist, created = Wishlist.objects.get_or_create(user=user)
+    else:
+        wishlist = None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -66,6 +74,7 @@ def all_products(request):
         'current_categories': categories,
         "sale": sale,
         'current_sorting': current_sorting,
+        "wishlist": wishlist,
     }
 
     return render(request, 'products/products.html', context)
@@ -75,9 +84,16 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    user = request.user
+
+    if user.is_authenticated:
+        wishlist, created = Wishlist.objects.get_or_create(user=user)
+    else:
+        wishlist = None
 
     context = {
         'product': product,
+        "wishlist": wishlist,
     }
 
     return render(request, 'products/product_detail.html', context)

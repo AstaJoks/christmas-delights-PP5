@@ -608,6 +608,7 @@ input[name='q']::placeholder {
 }
 
 
+/* Contact Form*/
 .card-body-contact {
     padding: 2rem;
 }
@@ -619,12 +620,22 @@ input[name='q']::placeholder {
     padding: .8rem .8rem;
 }
 
+
+/* Wishlist */
 .wishlist-icon {
     color: #7f0800;
 }
 
-/* Media Queries */
+.remove-icon {
+    color: #7f0800;
+}
 
+.view-icon {
+    color: #2e5f00;
+}
+
+
+/* Media Queries *
 
 /* Responsive styles for screens with a maximum width of 420px */
 @media (max-width: 991px) {

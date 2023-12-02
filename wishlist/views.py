@@ -85,6 +85,3 @@ def remove_wishlist(request, product_id):
     redirect_url = request.META.get("HTTP_REFERER", reverse("products"))
 
     return HttpResponseRedirect(redirect_url)
-
-
-
