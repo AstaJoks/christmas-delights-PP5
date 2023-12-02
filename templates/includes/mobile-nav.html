@@ -54,7 +54,7 @@
     </li>
     {% if request.user.is_authenticated %}
     <li class="list-inline-item">
-        <a class="d-block d-lg-none" href="#">
+        <a class="d-block d-lg-none" href="{% url 'wishlist' %}">
             <div class="text-center">
                 <div><i class="brand-color-mobile fas fa-heart"></i></div>
                 <p class="my-0 nav-link">Wishlist</p>
