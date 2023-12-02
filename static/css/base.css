@@ -619,6 +619,10 @@ input[name='q']::placeholder {
     padding: .8rem .8rem;
 }
 
+.wishlist-icon {
+    color: #7f0800;
+}
+
 /* Media Queries */
 
 

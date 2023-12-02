@@ -53,7 +53,7 @@
                 <!-- Link to Remove Product -->
                 <div class="wishlist mb-3" data-label="Remove Product:">
                     Remove Product:
-                    <a href="#" aria-label="Link to Remove Product">
+                    <a href="{% url 'remove_wishlist' product.id %}?next={% url 'wishlist' %}" aria-label="Link to Remove Product">
                         <i class="fas fa-minus-circle text-muted"></i>
                     </a>
                 </div>
@@ -110,7 +110,7 @@
                             </a>
                         </td>
                         <td class="wishlist" data-label="Remove Product:">
-                            <a href="#" aria-label="Link to Remove Product">
+                            <a href="{% url 'remove_wishlist' product.id %}?next={% url 'wishlist' %}" aria-label="Link to Remove Product">
                                 <i class="fas fa-minus-circle text-muted"></i>
                             </a>
                         </td>
@@ -124,7 +124,7 @@
         <div class="row">
             <div class="col-12">
                 <p class="text-center text-black mt-3 h5">Your Wishlist is currently empty - click the <span
-                        class="icon"><i class="fas fa-heart fa-fw"></i></span> icon to add some!</p>
+                        class="wishlist-icon"><i class="fas fa-heart fa-fw"></i></span> icon to add some!</p>
                 <div class="text-center mt-4">
                     <a href="{% url 'products' %}" class="product-btn mt-1">
                         Go to Products

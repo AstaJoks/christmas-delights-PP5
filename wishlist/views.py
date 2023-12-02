@@ -33,3 +33,58 @@ def view_wishlist(request):
     template_name = "wishlist/wishlist.html"
     context = {"wishlist": wishlist}
     return render(request, template_name, context)
+
+
+def add_wishlist(request, product_id):
+    """
+    Add a view to show the wishlist
+    """
+
+    if not request.user.is_authenticated:
+        messages.error(
+            request, "Sorry, you need to be logged in to add to your Wishlist."
+        )
+        return redirect(reverse("account_login"))
+
+    product = get_object_or_404(Product, pk=product_id)
+    try:
+        wishlist = get_object_or_404(Wishlist, user=request.user.id)
+    except Http404:
+        wishlist = Wishlist.objects.create(user=request.user)
+
+    if product in wishlist.products.all():
+        messages.info(request, f"{product.title} is already on your Wishlist!")
+    else:
+        wishlist.products.add(product)
+        messages.info(
+            request, f"{product.title} has been added to your Wishlist!")
+
+    redirect_url = request.META.get("HTTP_REFERER", reverse("products"))
+
+    return HttpResponseRedirect(redirect_url)
+
+
+def remove_wishlist(request, product_id):
+    """
+    Remove an item from the wishlist
+    """
+
+    if not request.user.is_authenticated:
+        messages.error(
+            request, "Sorry, you need to be logged in to edit your Wishlist."
+        )
+        return redirect(reverse("account_login"))
+
+    product = get_object_or_404(Product, pk=product_id)
+    wishlist = Wishlist.objects.get(user=request.user)
+
+    wishlist.products.remove(product)
+    messages.info(
+        request, f"{product.title} has been removed from your Wishlist!")
+
+    redirect_url = request.META.get("HTTP_REFERER", reverse("products"))
+
+    return HttpResponseRedirect(redirect_url)
+
+
+
