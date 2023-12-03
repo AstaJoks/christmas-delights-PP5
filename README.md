@@ -44,6 +44,7 @@ Note: The site is for educational purposes only. To simulate a payment, please u
   - [Features](#features)
     - [Navigation](#navigation)
     - [Product Navigation](#product-navigation)
+    - [Search Bar](#search-bar)
     - [Home Screen](#home-screen)
     - [Delivery Banner](#delivery-banner)
       - [Hero Section](#hero-section)
@@ -52,20 +53,21 @@ Note: The site is for educational purposes only. To simulate a payment, please u
     - [Footer](#footer)
     - [Contact Us Page](#contact-us-page)
     - [FAQs Page](#faqs-page)
-    - [Log In Page](#log-in-page)
-    - [Register Page](#register-page)
-    - [Log Out Page](#log-out-page)
+    - [Sign In Page](#sign-in-page)
+    - [Sign Up Page](#sign-up-page)
+    - [Sign Out Page](#sign-out-page)
     - [Products Page](#products-page)
     - [Product Details Page](#product-details-page)
+    - [Product Management Page](#product-management-page)
     - [Wishlist](#wishlist)
-    - [Shopping Cart Page](#shopping-cart-page)
+    - [Shopping Bag Page](#shopping-bag-page)
     - [Checkout Page](#checkout-page)
-    - [Profile](#profile)
+    - [My Account](#my-account)
     - [404 Page](#404-page)
     - [403 Page](#403-page)
     - [500 Page](#500-page)
     - [Admin Page](#admin-page)
-    - [Success Messages](#success-messages)
+    - [Messages](#messages)
     - [Favicon](#favicon)
   - [Features Left To Implement](#features-left-to-implement)
 
@@ -200,47 +202,47 @@ Back to [top](#table-of-contents)
 
 - Home Page
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Home Page"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631139/Home_Page_dxfs13.png" width="400px" height="auto"  alt="Wireframe Home Page"></p>
 
 - Products
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Products"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631140/Products_Page_vpylch.png" width="400px" height="auto"  alt="Wireframe Products"></p>
 
 - Product Detail
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Post Detail"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631140/Product-Details_Page_s4leli.png" width="400px" height="auto"  alt="Wireframe Post Detail"></p>
 
-- Log In
+- Sign In
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Log In"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631139/Login_Page_ln17an.png" width="400px" height="auto"  alt="Wireframe Sign In"></p>
 
-- Register
+-Sign Up
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Register"></p>
+   <p><img src="v" width="400px" height="auto"  alt="Wireframe Sign Up"></p>
 
 - Shopping Cart
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Shopping Cart"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631141/Shopping_Cart_Page_fhzkhv.png" width="400px" height="auto"  alt="Wireframe Shopping Cart"></p>
 
 - Checkout
 
-   <p><img src="h" width="400px" height="auto"  alt="Wireframe Checkout"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631113/Checkout_Page_m85tze.png" width="400px" height="auto"  alt="Wireframe Checkout"></p>
 
-- My Profile
+- My Account
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe My Account"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631140/My_Profile_Page_edbnof.png" width="400px" height="auto"  alt="Wireframe My Account"></p>
 
 - Wishlist
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Wishlist"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631142/Wishlist_Page_ulyemy.png" width="400px" height="auto"  alt="Wireframe Wishlist"></p>
 
 - Contact Us
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Contact Us"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631113/Contact_Us_Page_s5vv51.png" width="400px" height="auto"  alt="Wireframe Contact Us"></p>
 
 - 404 Page
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe 404 Page"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631113/404_Page_rapsie.png" width="400px" height="auto"  alt="Wireframe 404 Page"></p>
 
 
 ### Database Design
@@ -260,23 +262,33 @@ Back to [top](#table-of-contents)
 
 - The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. This will allow users to view the site from any device and not take up too much space on mobile devices.
 
-<p><img src="" width="600px" height="auto"  alt="Nav Bar Login Mobile"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633517/navigation_mobile_ehp8qh.png" width="600px" height="auto"  alt="Nav Bar Login Mobile"></p>
 
-- Icons on the navigation bar change depending on whether the user is logged in or not.
+- Icons on the navigation bar change depending on whether the user is Signed in or not.
 
-    - If the user logs in or signs up, those two tabs are removed to be replaced with a Logout tab.
+    - If the user sign in or signs up, those two tabs are removed to be replaced with a Sign Out tab.
 
-    <p><img src="" width="800px" height="auto"  alt="Nav Bar Login"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633499/nav_bar_login_pw1tpv.png" width="800px" height="auto"  alt="Nav Bar Sign In"></p>
 
-    - Once the user logs in or register, a completely new icon appears called Wishlist.
+    - Once the user sigs in or sign up, a completely new icon appears called Wishlist.
 
-    <p><img src="" width="800px" height="auto"  alt="Nav Bar Logout"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633491/Nav_bar_log_out_twlh2e.png" width="800px" height="auto"  alt="Nav Bar Sign out"></p>
+
+    - If the user is the superuser, new tab "Product Management" appears on the menu.
+
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633484/Management_loged_in_bnjxr0.png" width="800px" height="auto"  alt="Product Management tab"></p>
 
 ### Product Navigation
 
 - The product navigation is displayed on all pages and drops down into hamburger menu on smaller devices. It provides the links to all products section and to contact us page, lists product by the category and products on sale.
 
-<p><img src="" width="800px" height="auto"  alt="Product Nav"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633794/product_nav_mbpsqi.png" width="800px" height="auto"  alt="Product Nav"></p>
+
+### Search Bar
+
+- The Search Bar is displayed on all pages and drops down to icon on smaller devices.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633794/product_nav_mbpsqi.png" width="800px" height="auto"  alt="Search Bar></p>
 
 ### Home Screen
 
@@ -287,26 +299,26 @@ Back to [top](#table-of-contents)
 
 - Delivery Banner is displayed on all pages and informs the visitor about the option to get the free delivery.
 
-<p><img src="" width="800px" height="auto"  alt="Delivery Banner"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633793/delivery_banner_gx6zcs.png" width="800px" height="auto"  alt="Delivery Banner"></p>
 
 #### Hero Section
 
 - In the Hero Section there is a large Hero image to catch the user's eye, text to introduce the shop.
 - There is a 'Shop Now' button that links to the product details page.
 
-<p><img src="" width="600px" height="auto"  alt="Hero Section"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634144/hero_image_ex0gkm.png" width="600px" height="auto"  alt="Hero Section"></p>
  
 #### Popular Categories Section
 
 - Below the Hero section there is Popular Categories section to show the links to the most popular products.
 
-<p><img src="" width="600px" height="auto"  alt="About Us section"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634137/popular_categories_vyxxph.png" width="600px" height="auto"  alt="Popular Categories Section"></p>
 
 ### Why Shop With Us Section
 
 - The "Why Shop With Us" section gives users a quick summary of reasons to shop with this store.
 
-<p><img src="" width="600px" height="auto"  alt="Popular Categories section"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634136/why_us_r1otiz.png" width="600px" height="auto"  alt="Why Shop With Us section"></p>
 
 ### Footer
 
@@ -314,7 +326,7 @@ Back to [top](#table-of-contents)
 
 - The footer also has our newsletter signup, generated through MailChimp. This makes it available across every page to maximise the chance of someone signing up.
 
-<p><img src="" width="700px" height="auto"  alt="Footer"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634133/footer_dgjvud.png" width="700px" height="auto"  alt="Footer"></p>
 
 Back to [top](#table-of-contents)<hr>
 
@@ -323,44 +335,44 @@ Back to [top](#table-of-contents)<hr>
 - The Contact feature can be found from the nav bar and allows both signed in users and anonymous users to contact the site admin.
 - Contact Us Page contains a form with the contact reason option, the user details and the message.
 
-<p><img src="" width="600px" height="auto"  alt="Contact Us"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634357/contact_us_lhwn3p.png" width="600px" height="auto"  alt="Contact Us"></p>
 
 ### FAQs Page
 
 - The FAQs page gives the user information about shipping, cancellations, order modifications and payment options.
 - There is a link system at the top of the page to allow users to quickly get to the section they need.
 
-<p><img src="" width="600px" height="auto"  alt="FAQs Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634359/faqs_ql4t0s.png" width="600px" height="auto"  alt="FAQs Page"></p>
 
-### Log In Page
+### Sign In Page
 
-- The Log In page is accessed from the navigation bar.
-- The Log In page contains a link to the Sign Up page for the user who may have misclicked and needs to Sign Up rather than log in.
+- The Sign In page is accessed from the navigation bar.
+- The Sign In page contains a link to the Sign Up page for the user who may have misclicked and needs to Sign Up rather than sign in.
 - It uses django-allauth to provide all the settings for user authentication.
 - Styles are consistent with the rest of the website.
 
-<p><img src="" width="600px" height="auto"  alt="Login Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634360/log_in_vuqd5u.png" width="600px" height="auto"  alt="Sign In Page"></p>
 
-### Register Page
+### Sign Up Page
 
-- The Register page is accessed from the navigation bar.
-- The Register page contains a link to the Log In page for the user who may have misclicked and already has an account.
+- The Sign Up page is accessed from the navigation bar.
+- The Sign Up page contains a link to the Sign In page for the user who may have misclicked and already has an account.
 - It uses django-allauth to provide all the settings for user authentication:
   - Unique username,
   - Email address,
   - Strength of password.
 - Styles are consistent with the rest of the website.
 
-<p><img src="" width="600px" height="auto"  alt="Register Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634515/sign_up_fced10.png" width="600px" height="auto"  alt="Sign Up Page"></p>
 
-### Log Out Page
+### Sign Out Page
 
-- The Log Out page can only be accessed from the navigation bar and only when the user is logged in.
-- The Log Out page has a button for users to confirm they wish to log out or the button to cancel the request.
+- The Sign Out page can only be accessed from the navigation bar and only when the user is logged in.
+- The Sign Out page has a button for users to confirm they wish to sign out or the button to cancel the request.
 - It uses django-allauth to provide all the settings for user authentication.
 - Styles are consistent with the rest of the website.
 
-<p><img src="" width="600px" height="auto"  alt="Log Out"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634578/sign_out_yomy9m.png" width="600px" height="auto"  alt="Sign Out"></p>
 
 Back to [top](#table-of-contents)
 
@@ -369,16 +381,26 @@ Back to [top](#table-of-contents)
 - The Products Page lists all products initially.
 - This can be changed by choosing a category from the drop down navbar menu or by using the selector box to sort items.
 - Each individual product has a card with details listed (title, price).
-- Each product can also be added to a logged in users wishlist if they click the heart icon.
+- Each product can also be added to a signed in users wishlist if they click the heart icon. (Full heart means that product is already in the Wishlist)
 - Clicking on the "View Product" button will bring the user to the product detail page for that item.
 
-<p><img src="" width="600px" height="auto"  alt="Products Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634950/products_authorised_bfhqim.png" width="600px" height="auto"  alt="Products Page"></p>
+
+- The Authorised Super User can Edit or Delete the product from Product List.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634950/products_authorised_bfhqim.png" width="600px" height="auto"  alt="Products Page Managament"></p>
 
 ### Product Details Page
 
 - The product details page shows a larger product image, a description for the product, as well as allowing the user to add the required quantity of products to their cart.
 
-<p><img src="" width="600px" height="auto"  alt="Product Detail Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701635430/product_detail_yvbrjx.png" width="600px" height="auto"  alt="Product Detail Page"></p>
+
+### Product Management Page
+
+The Authorised Super User can edit product details or delete the product from the list in the management page which can be reached from products/product details pages or Product Management tab in the navigation menu.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701635430/product_detail_yvbrjx.png" width="400px" height="auto"  alt="Product Detail Page"></p>
 
 ### Wishlist
 
@@ -386,33 +408,32 @@ Back to [top](#table-of-contents)
 - On the Wishlist page, there is ashort summary of the product, as well as a link to the product detail page, which allows users to add it to their cart.
 - The page also has a remove option, which allows users to remove product from their Wishlist.
 
-<p><img src="" width="600px" height="auto"  alt="Wishlist Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636152/wishlist_auuiqp.png" width="600px" height="auto"  alt="Wishlist Page"></p>
 
-### Shopping Cart Page
+### Shopping Bag Page
 
-- The cart page shows everything a user has in their cart currently.
+- The bag page shows everything a user has in their cart currently.
 - This page allows for updating quantities, deleting products from their cart and seeing details of each product.
 - The subtotals are calculated automatically and if a product is on sale, it will show the original price of each item and the sale price.
 
-<p><img src="" width="600px" height="auto"  alt="Shopping Cart Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636149/shopping_bag_glpicq.png" width="600px" height="auto"  alt="Shopping Bag Page"></p>
 
 ### Checkout Page
 
 - The checkout page shows the products, prices, includes a users information and a stripe element for secure card payments.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636145/checkout_gl1tf0.png" width="600px" height="auto"  alt="Checkout Page"></p>
+
 - On successful checkout, an order summary page is shown and has a link to brows more products after.
 
-<p><img src="" width="600px" height="auto"  alt="Checkout Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636145/checkout_gl1tf0.png" width="600px" height="auto"  alt="Order Confirmation Page"></p>
 
-### Profile
+### My Account
 
-- The Account Profile page has a tabbed dashboard which allows users to update their information - name and shipping address - which can be used for a quicker checkout process.
-- This Profile page also shows the users Order History, which allows them to see the summary of all past purchases.
+- The Account page has a dashboard which allows users to update their information - name and shipping address - which can be used for a quicker checkout process.
+- The Account page also shows the users Order History, which allows them to see the summary of all past purchases.
 
-<p><img src="" width="600px" height="auto"  alt="Profile Page"></p>
-
-- On this dashboard, the user also has the option to delete their profile. This deletes all associated order histories and information. There is a separate page for deletion confirmation.
-
-<p><img src="" width="600px" height="auto"  alt="Profile Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636147/my_account_f0c4jd.png" width="600px" height="auto"  alt="My Account Page"></p>
 
 Back to [top](#table-of-contents)
 
@@ -420,35 +441,33 @@ Back to [top](#table-of-contents)
 
 - The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
 
-<p><img src="h" width="600px" height="auto"  alt="404 Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636144/404_dfrild.png" width="600px" height="auto"  alt="404 Page"></p>
 
 ### 403 Page
 
 - A 403 error page has been implemented to provide feedback to the user when they try to access unauthorized content. Users will be directed to this page if they alter the URL's and attempt to edit, delete
 
-<p><img src="" width="600px" height="auto"  alt="403 Page"></p>
-
 ### 500 Page
 
 - A 500 error page has been displayed to alert users when an internal server error occurs. The message relays to users that the problem is on our end, not theirs.
-
-<p><img src="" width="600px" height="auto"  alt="500 Page"></p>
 
 ### Admin Page
 
 - The admin dashboard is restricted to Super Users and anyone the Super User designates as staff.
 
-### Success Messages
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636381/admin_panel_dnph02.png" width="600px" height="auto"  alt="Admin Panel"></p>
 
-- Success messages are implemented throughout the website as the confirmation for the user that his/her action is completed successfully.
+### Messages
 
-<p><img src="" width="600px" height="auto"  alt="Success Messages"></p>
+- Messages are implemented throughout the website as the confirmation for the user that his/her action is completed successfully. Alert the user about his/her actions. As the error message to inform the user about restricted actions.
 
-### Favicon 
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701637518/messages_s5rmgn.png" width="600px" height="auto"  alt="Messages"></p>
+
+### Favicon
 
  - A favicon was added the website to enable users to easily locate the website in the browser when multiple tabs are open.
 
- <p><img src="" width="400px" height="auto"  alt="Favicon"></p>
+ <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636311/favicon_tbk6d4.png" width="400px" height="auto"  alt="Favicon"></p>
 
 ## Features Left To Implement
 
