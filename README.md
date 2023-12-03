@@ -265,15 +265,15 @@ Back to [top](#table-of-contents)
 
   - If the user sign in or signs up, those two tabs are removed to be replaced with a Logout tab.
 
-        <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633499/nav_bar_login_pw1tpv.png" width="400px" height="auto"  alt="Nav Bar Sign In"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633499/nav_bar_login_pw1tpv.png" width="400px" height="auto"  alt="Nav Bar Sign In"></p>
 
   - Once the user sigs in or sign up, a completely new icon appears called Wishlist.
 
-        <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633491/Nav_bar_log_out_twlh2e.png" width="400px" height="auto"  alt="Nav Bar Sign out"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633491/Nav_bar_log_out_twlh2e.png" width="400px" height="auto"  alt="Nav Bar Sign out"></p>
 
   - If the user is the superuser, new tab "Product Management" appears on the menu.
 
-        <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633484/Management_loged_in_bnjxr0.png" width="400px" height="auto"  alt="Product Management tab"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633484/Management_loged_in_bnjxr0.png" width="400px" height="auto"  alt="Product Management tab"></p>
 
 #### Product Navigation
 
@@ -419,7 +419,7 @@ Back to [top](#table-of-contents)
 
 - The checkout page shows the products, prices, includes a users information and a stripe element for secure card payments.
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636145/checkout_gl1tf0.png" width="600px" height="auto"  alt="Checkout Page"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636145/checkout_gl1tf0.png" width="600px" height="auto"  alt="Checkout Page"></p>
 
 - On successful checkout, an order summary page is shown and has a link to brows more products after.
 
