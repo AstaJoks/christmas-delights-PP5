@@ -27,15 +27,15 @@ Note: The site is for educational purposes only. To simulate a payment, please u
   - [Agile Methodology](#agile-methodology)
     - [Epics and User Stories](#epics-and-user-stories)
       - [EPIC 1 - Base Setup](#epic-1---base-setup)
-    - [EPIC 2 - Deployment](#epic-2---deployment)
-    - [EPIC 3 - Plan and create frontend layout](#epic-3---plan-and-create-frontend-layout)
-    - [EPIC 4 - Admin functionality](#epic-4---admin-functionality)
-    - [EPIC 5 - Products](#epic-5---products)
-    - [EPIC 6 - Stand Alone Pages](#epic-6---stand-alone-pages)
-    - [EPIC 7 - User Account and Wishlist](#epic-7---user-account-and-wishlist)
-    - [EPIC 8 - Purchasing and Checkout](#epic-8---purchasing-and-checkout)
-    - [EPIC 9 - Marketing and SEO](#epic-9---marketing-and-seo)
-    - [EPIC 10 - Documentation and testing](#epic-10---documentation-and-testing)
+      - [EPIC 2 - Deployment](#epic-2---deployment)
+      - [EPIC 3 - Plan and create frontend layout](#epic-3---plan-and-create-frontend-layout)
+      - [EPIC 4 - Admin functionality](#epic-4---admin-functionality)
+      - [EPIC 5 - Products](#epic-5---products)
+      - [EPIC 6 - Stand Alone Pages](#epic-6---stand-alone-pages)
+      - [EPIC 7 - User Account and Wishlist](#epic-7---user-account-and-wishlist)
+      - [EPIC 8 - Purchasing and Checkout](#epic-8---purchasing-and-checkout)
+      - [EPIC 9 - Marketing and SEO](#epic-9---marketing-and-seo)
+      - [EPIC 10 - Documentation and testing](#epic-10---documentation-and-testing)
   - [The Scope Plane](#the-scope-plane)
   - [The Skeleton Plane](#the-skeleton-plane)
     - [Wireframes](#wireframes)
@@ -43,14 +43,14 @@ Note: The site is for educational purposes only. To simulate a payment, please u
   - [The Structure Plane](#the-structure-plane)
   - [Features](#features)
     - [Navigation](#navigation)
-    - [Product Navigation](#product-navigation)
-    - [Search Bar](#search-bar)
+      - [Product Navigation](#product-navigation)
+      - [Search Bar](#search-bar)
     - [Home Screen](#home-screen)
-    - [Delivery Banner](#delivery-banner)
+      - [Delivery Banner](#delivery-banner)
       - [Hero Section](#hero-section)
       - [Popular Categories Section](#popular-categories-section)
-    - [Why Shop With Us Section](#why-shop-with-us-section)
-    - [Footer](#footer)
+      - [Why Shop With Us Section](#why-shop-with-us-section)
+      - [Footer](#footer)
     - [Contact Us Page](#contact-us-page)
     - [FAQs Page](#faqs-page)
     - [Sign In Page](#sign-in-page)
@@ -122,24 +122,24 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
 - User Sories
   - As a developer, I need to set up the project so that it is ready for implementing the core features.
 
-### EPIC 2 - Deployment
+#### EPIC 2 - Deployment
 
 - User Stories
   - As a developer, I need to deploy the project to heroku so that it is live for customers
 
-### EPIC 3 - Plan and create frontend layout
+#### EPIC 3 - Plan and create frontend layout
 
 - User Stories
   - As a developer I can create wireframes so that the layout of the website is clear for desktop and mobile.
   - As a user I want the website to be responsive so I can view it on my mobile.
 
-### EPIC 4 - Admin functionality
+#### EPIC 4 - Admin functionality
 
 - User Stories
   - As an shop administrator, I want to have access to an admin dashboard so that I can monitor and view simple statistics related to the orders of the shop.
   - As an administrator, I want to be able to add new products to the website so that I can expand the products list.
 
-### EPIC 5 - Products
+#### EPIC 5 - Products
 
 - User Stories
   - As a user I want to be able to refine the list of available products by selecting a specific category so that I can easily find items that match my interests.
@@ -147,7 +147,7 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
   - As a User I want to be able to search for products in shop by entering keywords so that I can quickly find specific item of interest.
   - As a user I want to be able to refine the list of available products by selecting a specific category so that I can easily find items that match my interests.
 
-### EPIC 6 - Stand Alone Pages
+#### EPIC 6 - Stand Alone Pages
 
 - User Stories
   - As a shopper I can visit the home page so that I can identify the purpose of the website.
@@ -156,14 +156,14 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
   - As a developer, I need to implement a 500 error page to alert users when an internal server error occurs.
   - As a developer, I need to implement a 403 error page to redirect unauthorised users to so that I can secure my views.
 
-### EPIC 7 - User Account and Wishlist
+#### EPIC 7 - User Account and Wishlist
 
 - User Stories
   - As a developer, I need to implement allauth so that users can sign up and have access to the shop features.
   - As an user I want to be able to have a personalised user profile so that I can update my personal information.
   - AAs a authenticated user, I want to be able to save products to my Wishlist so that I can revisit and consider purchasing them later.
 
-### EPIC 8 - Purchasing and Checkout
+#### EPIC 8 - Purchasing and Checkout
 
 - User Stories
   - As a user, I want to be able to add products to my shopping cart so that I can conveniently review and purchase multiple items.
@@ -171,20 +171,19 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
   - As a user, I want to be able to remove products from my shopping cart so that I can adjust my order before making a purchase.
   - As a user, I want to be able to securely make payments using Stripe so that I can complete my purchases with confident.
 
-### EPIC 9 - Marketing and SEO
+#### EPIC 9 - Marketing and SEO
 
 - User Stories
   - As a shop owner, I want to improve the website's search engine optimization (SEO) so that the website can rank higher in search engine results.
   - As a user, I want to sign up for newsletters on the website so that I can keep up with updates and deals.
 
-### EPIC 10 - Documentation and testing
+#### EPIC 10 - Documentation and testing
 
 - Tasks
   - Complete ReadMe documentation.
   - Complete Testing Documentation.
 
 Back to [top](#table-of-contents)
-
 
 ## The Scope Plane
 
@@ -218,7 +217,7 @@ Back to [top](#table-of-contents)
 
 -Sign Up
 
-   <p><img src="v" width="400px" height="auto"  alt="Wireframe Sign Up"></p>
+   <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631848/Register_Page_ojamc2.png" width="400px" height="auto"  alt="Wireframe Sign Up"></p>
 
 - Shopping Cart
 
@@ -244,7 +243,6 @@ Back to [top](#table-of-contents)
 
    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631113/404_Page_rapsie.png" width="400px" height="auto"  alt="Wireframe 404 Page"></p>
 
-
 ### Database Design
 
 - The database models and fields were planned and outlined using an Database Diagram in [Lucidchart](https://lucid.co/).
@@ -252,7 +250,6 @@ Back to [top](#table-of-contents)
 <p><img src="" width="700px" height="auto"  alt="Database Design"></p>
 
 Back to [top](#table-of-contents)
-
 
 ## The Structure Plane
 
@@ -262,29 +259,29 @@ Back to [top](#table-of-contents)
 
 - The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. This will allow users to view the site from any device and not take up too much space on mobile devices.
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633517/navigation_mobile_ehp8qh.png" width="600px" height="auto"  alt="Nav Bar Login Mobile"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633517/navigation_mobile_ehp8qh.png" width="500px" height="auto"  alt="Nav Bar Login Mobile"></p>
 
 - Icons on the navigation bar change depending on whether the user is Signed in or not.
 
-    - If the user sign in or signs up, those two tabs are removed to be replaced with a Sign Out tab.
+  - If the user sign in or signs up, those two tabs are removed to be replaced with a Logout tab.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633499/nav_bar_login_pw1tpv.png" width="800px" height="auto"  alt="Nav Bar Sign In"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633499/nav_bar_login_pw1tpv.png" width="500px" height="auto"  alt="Nav Bar Sign In"></p>
 
-    - Once the user sigs in or sign up, a completely new icon appears called Wishlist.
+  - Once the user sigs in or sign up, a completely new icon appears called Wishlist.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633491/Nav_bar_log_out_twlh2e.png" width="800px" height="auto"  alt="Nav Bar Sign out"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633491/Nav_bar_log_out_twlh2e.png" width="500px" height="auto"  alt="Nav Bar Sign out"></p>
 
-    - If the user is the superuser, new tab "Product Management" appears on the menu.
+  - If the user is the superuser, new tab "Product Management" appears on the menu.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633484/Management_loged_in_bnjxr0.png" width="800px" height="auto"  alt="Product Management tab"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633484/Management_loged_in_bnjxr0.png" width="500px" height="auto"  alt="Product Management tab"></p>
 
-### Product Navigation
+#### Product Navigation
 
 - The product navigation is displayed on all pages and drops down into hamburger menu on smaller devices. It provides the links to all products section and to contact us page, lists product by the category and products on sale.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633794/product_nav_mbpsqi.png" width="800px" height="auto"  alt="Product Nav"></p>
 
-### Search Bar
+#### Search Bar
 
 - The Search Bar is displayed on all pages and drops down to icon on smaller devices.
 
@@ -295,7 +292,7 @@ Back to [top](#table-of-contents)
 - Home Page is a landing page that provides an overview of the website and it's features.
 - It is split into multiple sections, with the information easy to read and eye catching to a visitor.
 
-### Delivery Banner
+#### Delivery Banner
 
 - Delivery Banner is displayed on all pages and informs the visitor about the option to get the free delivery.
 
@@ -307,20 +304,20 @@ Back to [top](#table-of-contents)
 - There is a 'Shop Now' button that links to the product details page.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634144/hero_image_ex0gkm.png" width="600px" height="auto"  alt="Hero Section"></p>
- 
+
 #### Popular Categories Section
 
 - Below the Hero section there is Popular Categories section to show the links to the most popular products.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634137/popular_categories_vyxxph.png" width="600px" height="auto"  alt="Popular Categories Section"></p>
 
-### Why Shop With Us Section
+#### Why Shop With Us Section
 
 - The "Why Shop With Us" section gives users a quick summary of reasons to shop with this store.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634136/why_us_r1otiz.png" width="600px" height="auto"  alt="Why Shop With Us section"></p>
 
-### Footer
+#### Footer
 
 - The footer is used across all pages, with links to Contact, FAQs, Privacy Policies and an email address.
 
@@ -386,7 +383,7 @@ Back to [top](#table-of-contents)
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634950/products_authorised_bfhqim.png" width="600px" height="auto"  alt="Products Page"></p>
 
-- The Authorised Super User can Edit or Delete the product from Product List.
+- The Authorised Super User can Edit the product or Delete the product from Product List.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634950/products_authorised_bfhqim.png" width="600px" height="auto"  alt="Products Page Managament"></p>
 
@@ -400,7 +397,7 @@ Back to [top](#table-of-contents)
 
 The Authorised Super User can edit product details or delete the product from the list in the management page which can be reached from products/product details pages or Product Management tab in the navigation menu.
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701635430/product_detail_yvbrjx.png" width="400px" height="auto"  alt="Product Detail Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701635430/product_detail_yvbrjx.png" width="600px" height="auto"  alt="Product Detail Page"></p>
 
 ### Wishlist
 
@@ -439,17 +436,17 @@ Back to [top](#table-of-contents)
 
 ### 404 Page
 
-- The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
+- The 404 page will allow the user to easily navigate back to the shop page if they direct to a broken link / missing page, without the need of the browsers back button.
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636144/404_dfrild.png" width="600px" height="auto"  alt="404 Page"></p>
 
 ### 403 Page
 
-- A 403 error page has been implemented to provide feedback to the user when they try to access unauthorized content. Users will be directed to this page if they alter the URL's and attempt to edit, delete
+- A 403 error page has been implemented to provide feedback to the user when they try to access unauthorized content.
 
 ### 500 Page
 
-- A 500 error page has been displayed to alert users when an internal server error occurs. The message relays to users that the problem is on our end, not theirs.
+- A 500 error page has been displayed to alert users when an internal server error occurs.
 
 ### Admin Page
 
@@ -465,7 +462,7 @@ Back to [top](#table-of-contents)
 
 ### Favicon
 
- - A favicon was added the website to enable users to easily locate the website in the browser when multiple tabs are open.
+- A favicon was added the website to enable users to easily locate the website in the browser when multiple tabs are open.
 
  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636311/favicon_tbk6d4.png" width="400px" height="auto"  alt="Favicon"></p>
 
@@ -474,6 +471,9 @@ Back to [top](#table-of-contents)
 - There are a number of features which would be great to implement in the future:
 
   - Currently the product ratings are just random numbers entered when the product is being added (initally with a fixtures file) but I would like for users to also be able to add a product rating too which is caluclated as an average.
-  - ability users to login with their social media accounts.
+  - Ability users to login with their social media accounts.
+  - Review and Rating section for the products.
 
 Back to [top](#table-of-contents)
+
+
