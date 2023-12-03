@@ -6,7 +6,7 @@ Christmas Delights is a fictional B2C online store. The site will be targeted to
 
 The main goal of this project is to demonstrate my Full-Stack knowledge(HTML, CSS, JavaScript, Python/Django, relational database and Stripe payments) in a real-world context.
 
-![Responsive Mockup]()
+![Responsive Mockup](https://res.cloudinary.com/dcydt01ed/image/upload/v1701625240/mockup_ggrv88.png)
 
 Get the festive season started with our fantastic Christmas party supplies. Find everything you need for a fabulous celebration from tableware and decorations to fancy dress costumes, accessories and more!
 
@@ -28,7 +28,7 @@ Note: The site is for educational purposes only. To simulate a payment, please u
     - [Epics and User Stories](#epics-and-user-stories)
       - [EPIC 1 - Base Setup](#epic-1---base-setup)
     - [EPIC 2 - Deployment](#epic-2---deployment)
-    - [EPIC 3 - Plan and create frontend layout\*\*](#epic-3---plan-and-create-frontend-layout)
+    - [EPIC 3 - Plan and create frontend layout](#epic-3---plan-and-create-frontend-layout)
     - [EPIC 4 - Admin functionality](#epic-4---admin-functionality)
     - [EPIC 5 - Products](#epic-5---products)
     - [EPIC 6 - Stand Alone Pages](#epic-6---stand-alone-pages)
@@ -105,9 +105,9 @@ Back to [top](#table-of-contents)
 ## Agile Methodology
 
 The Agile Methodology was used to plan this project. This was implemented through Github and the Project Board, which can be seen here -
-[ChristmasDelightPP5 Project Board]()
+[ChristmasDelightPP5 Project Board](https://github.com/users/AstaJoks/projects/7)
 
-<p><img src="" width="700px" height="auto"  alt="Kanban Board"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701623960/project_board_zhjz30.png" width="700px" height="auto"  alt="Kanban Board"></p>
 
 Github issues were used to create User Stories for the project. This is where the project user was assigned. Labels were added to show at a glance importance of tasks and help prioritize jobs.
 
@@ -125,7 +125,7 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
 - User Stories
   - As a developer, I need to deploy the project to heroku so that it is live for customers
 
-### EPIC 3 - Plan and create frontend layout**
+### EPIC 3 - Plan and create frontend layout
 
 - User Stories
   - As a developer I can create wireframes so that the layout of the website is clear for desktop and mobile.
@@ -181,7 +181,7 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
   - Complete ReadMe documentation.
   - Complete Testing Documentation.
 
-Back to [top](#table-of-contents
+Back to [top](#table-of-contents)
 
 
 ## The Scope Plane
@@ -194,7 +194,6 @@ Back to [top](#table-of-contents
 
 Back to [top](#table-of-contents)
 
-
 ## The Skeleton Plane
 
 ### Wireframes
@@ -205,7 +204,7 @@ Back to [top](#table-of-contents)
 
 - Products
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe Blog"></p>
+   <p><img src="" width="400px" height="auto"  alt="Wireframe Products"></p>
 
 - Product Detail
 
@@ -229,7 +228,7 @@ Back to [top](#table-of-contents)
 
 - My Profile
 
-   <p><img src="" width="400px" height="auto"  alt="Wireframe My Profile"></p>
+   <p><img src="" width="400px" height="auto"  alt="Wireframe My Account"></p>
 
 - Wishlist
 
