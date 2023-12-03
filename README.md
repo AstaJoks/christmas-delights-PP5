@@ -45,7 +45,7 @@ Note: The site is for educational purposes only. To simulate a payment, please u
     - [Navigation](#navigation)
       - [Product Navigation](#product-navigation)
       - [Search Bar](#search-bar)
-    - [Home Screen](#home-screen)
+    - [Home Page](#home-page)
       - [Delivery Banner](#delivery-banner)
       - [Hero Section](#hero-section)
       - [Popular Categories Section](#popular-categories-section)
@@ -102,7 +102,7 @@ Note: The site is for educational purposes only. To simulate a payment, please u
 
 - Create a fully working e-commerce application that would look and feel like a professionally designed online store. Taking all of my knowledge from the 4 projects before, I wanted this website to be as comprehensive and complete as I could possibly make it.
 
-Back to [top](#table-of-contents)
+Back to [top](#table-of-contents)<hr>
 
 ## Agile Methodology
 
@@ -183,7 +183,7 @@ The project had 10 main Epics (Milestones) and 33 User Stories:
   - Complete ReadMe documentation.
   - Complete Testing Documentation.
 
-Back to [top](#table-of-contents)
+Back to [top](#table-of-contents)<hr>
 
 ## The Scope Plane
 
@@ -193,7 +193,7 @@ Back to [top](#table-of-contents)
 - Ability to create, view, update and delete products for superusers.
 - Restricted detail blog view while unauthorised user.
 
-Back to [top](#table-of-contents)
+Back to [top](#table-of-contents)<hr>
 
 ## The Skeleton Plane
 
@@ -213,7 +213,7 @@ Back to [top](#table-of-contents)
 
 - Sign In
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701631139/Login_Page_ln17an.png" width="400px" height="auto"  alt="Wireframe Sign In"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701643996/Login_Page_eisy8g.png" width="400px" height="auto"  alt="Wireframe Sign In"></p>
 
 - Sign Up
 
@@ -249,7 +249,7 @@ Back to [top](#table-of-contents)
 
     <p><img src="" width="700px" height="auto"  alt="Database Design"></p>
 
-Back to [top](#table-of-contents)
+Back to [top](#table-of-contents)<hr>
 
 ## The Structure Plane
 
@@ -259,7 +259,7 @@ Back to [top](#table-of-contents)
 
 - The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. This will allow users to view the site from any device and not take up too much space on mobile devices.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633517/navigation_mobile_ehp8qh.png" width="400px" height="auto"  alt="Nav Bar Login Mobile"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701642127/nav_mobile_l483we.png" width="400px" height="auto"  alt="Nav Bar Login Mobile"></p>
 
 - Icons on the navigation bar change depending on whether the user is Signed in or not.
 
@@ -285,9 +285,11 @@ Back to [top](#table-of-contents)
 
 - The Search Bar is displayed on all pages and drops down to icon on smaller devices.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633794/product_nav_mbpsqi.png" width="800px" height="auto"  alt="Search Bar></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633795/search_sqgzfw.png" width="800px" height="auto"  alt="Search Bar></p>
 
-### Home Screen
+Back to [top](#table-of-contents)<hr>
+
+### Home Page
 
 - Home Page is a landing page that provides an overview of the website and it's features.
 - It is split into multiple sections, with the information easy to read and eye catching to a visitor.
@@ -371,7 +373,7 @@ Back to [top](#table-of-contents)<hr>
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634578/sign_out_yomy9m.png" width="600px" height="auto"  alt="Sign Out"></p>
 
-Back to [top](#table-of-contents)
+Back to [top](#table-of-contents)<hr>
 
 ### Products Page
 
@@ -397,7 +399,7 @@ Back to [top](#table-of-contents)
 
 - The Authorised Super User can edit product details or delete the product from the list in the management page which can be reached from products/product details pages or Product Management tab in the navigation menu.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701635430/product_detail_yvbrjx.png" width="600px" height="auto"  alt="Product Detail Page"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701635511/product_Managemtn_pp1w0l.png" width="600px" height="auto"  alt="Product Detail Page"></p>
 
 ### Wishlist
 
@@ -423,7 +425,7 @@ Back to [top](#table-of-contents)
 
 - On successful checkout, an order summary page is shown and has a link to brows more products after.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636145/checkout_gl1tf0.png" width="600px" height="auto"  alt="Order Confirmation Page"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701643861/checkout_confirm_yyi4p2.png" width="600px" height="auto"  alt="Order Confirmation Page"></p>
 
 ### My Account
 
@@ -474,4 +476,4 @@ Back to [top](#table-of-contents)
   - Ability users to login with their social media accounts.
   - Review and Rating section for the products.
 
-Back to [top](#table-of-contents)
+Back to [top](#table-of-contents)<hr>
