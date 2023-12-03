@@ -169,6 +169,11 @@ hr {
 }
 
 /* Navbar*/
+
+ul {
+    padding-inline-start: 0px;
+}
+
 img.logo {
     width: 25vh;
 }
