@@ -387,7 +387,7 @@ Back to [top](#table-of-contents)<hr>
 
 - The Authorised Super User can Edit the product or Delete the product from Product List.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634950/products_authorised_bfhqim.png" width="600px" height="auto"  alt="Products Page Managament"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634952/super_user_product_ikm27i.png" width="600px" height="auto"  alt="Products Page Managament"></p>
 
 ### Product Details Page
 
