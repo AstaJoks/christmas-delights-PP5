@@ -213,7 +213,7 @@ Back to [top](#table-of-contents)<hr>
 - Fully responsive design, tested across all screen sizes, with navigation for mobile.
 - Hamburger menu for mobile devices.
 - Ability to create, view, update and delete products for superusers.
-- Restricted detail blog view while unauthorised user.
+- Restricted wishlist view while unauthorised user.
 
 Back to [top](#table-of-contents)<hr>
 
@@ -275,39 +275,39 @@ Back to [top](#table-of-contents)<hr>
 
 ## The Structure Plane
 
-## Features
+### Features
 
 ### Navigation
 
 - The navigation menu is displayed on all pages and drops down into a hamburger menu on smaller devices. This will allow users to view the site from any device and not take up too much space on mobile devices.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701642127/nav_mobile_l483we.png" width="400px" height="auto"  alt="Nav Bar Login Mobile"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701642127/nav_mobile_l483we.png" width="400px" height="auto"  alt="Nav Bar Login Mobile"></p>
 
-- Icons on the navigation bar change depending on whether the user is Signed in or not.
+  - Icons on the navigation bar change depending on whether the user is signed in or not.
 
-  - If the user sign in or signs up, those two tabs are removed to be replaced with a Logout tab.
+    - If the user sign in or signs up, those two tabs are removed to be replaced with a Logout tab.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633499/nav_bar_login_pw1tpv.png" width="400px" height="auto"  alt="Nav Bar Sign In"></p>
 
-  - Once the user sigs in or sign up, a completely new icon appears called Wishlist.
+    - Once the user sigs in or sign up, a completely new icon appears called Wishlist.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633491/Nav_bar_log_out_twlh2e.png" width="400px" height="auto"  alt="Nav Bar Sign out"></p>
 
-  - If the user is the superuser, new tab "Product Management" appears on the menu.
+    - If the user is the superuser, new tab "Product Management" appears on the menu.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633484/Management_loged_in_bnjxr0.png" width="400px" height="auto"  alt="Product Management tab"></p>
 
-#### Product Navigation
+  #### Product Navigation
 
-- The product navigation is displayed on all pages and drops down into hamburger menu on smaller devices. It provides the links to all products section and to contact us page, lists product by the category and products on sale.
+    - The product navigation is displayed on all pages and drops down into hamburger menu on smaller devices. It provides the links to all products section and to contact us page, lists product by the category and products on sale.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633794/product_nav_mbpsqi.png" width="800px" height="auto"  alt="Product Nav"></p>
 
-#### Search Bar
+  #### Search Bar
 
-- The Search Bar is displayed on all pages and drops down to icon on smaller devices.
+    - The Search Bar is displayed on all pages and drops down to icon on smaller devices.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633795/search_sqgzfw.png" width="800px" height="auto"  alt="Search Bar></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633795/search_sqgzfw.png" width="800px" height="auto"  alt="Search Bar"></p>
 
 Back to [top](#table-of-contents)<hr>
 
@@ -316,37 +316,37 @@ Back to [top](#table-of-contents)<hr>
 - Home Page is a landing page that provides an overview of the website and it's features.
 - It is split into multiple sections, with the information easy to read and eye catching to a visitor.
 
-#### Delivery Banner
+  #### Delivery Banner
 
-- Delivery Banner is displayed on all pages and informs the visitor about the option to get the free delivery.
+  - Delivery Banner is displayed on all pages and informs the visitor about the option to get the free delivery.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633793/delivery_banner_gx6zcs.png" width="800px" height="auto"  alt="Delivery Banner"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701633793/delivery_banner_gx6zcs.png" width="800px" height="auto"  alt="Delivery Banner"></p>
 
-#### Hero Section
+  #### Hero Image
 
-- In the Hero Section there is a large Hero image to catch the user's eye, text to introduce the shop. There is a 'Shop Now' button that links to the product details page.
+  - In the Hero Section there is a large Hero image to catch the user's eye, text to introduce the shop. There is a 'Shop Now' button that links to the product details page.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634144/hero_image_ex0gkm.png" width="600px" height="auto"  alt="Hero Section"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701644525/hero_p9sik8.png" width="600px" height="auto"  alt="Hero Section"></p>
 
-#### Popular Categories Section
+  #### Popular Categories Section
 
-- Below the Hero section there is Popular Categories section to show the links to the most popular products.
+  - Below the Hero section there is Popular Categories section to show the links to the most popular products.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634137/popular_categories_vyxxph.png" width="600px" height="auto"  alt="Popular Categories Section"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634137/popular_categories_vyxxph.png" width="600px" height="auto"  alt="Popular Categories Section"></p>
 
-#### Why Shop With Us Section
+  #### Why Shop With Us Section
 
-- The "Why Shop With Us" section gives users a quick summary of reasons to shop with this store.
+  - The "Why Shop With Us" section gives users a quick summary of reasons to shop with this store.  
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634136/why_us_r1otiz.png" width="600px" height="auto"  alt="Why Shop With Us section"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634136/why_us_r1otiz.png" width="600px" height="auto"  alt="Why Shop With Us section"></p>
 
-#### Footer
+  #### Footer
 
-- The footer is used across all pages, with links to Contact, FAQs, Privacy Policies and an email address.
+  - The footer is used across all pages, with links to Contact, FAQs, Privacy Policies and an email address.
 
-- The footer also has our newsletter signup, generated through MailChimp. This makes it available across every page to maximise the chance of someone signing up.
+  - The footer also has our newsletter signup, generated through MailChimp. This makes it available across every page to maximise the chance of someone signing up.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634133/footer_dgjvud.png" width="700px" height="auto"  alt="Footer"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634133/footer_dgjvud.png" width="700px" height="auto"  alt="Footer"></p>
 
 Back to [top](#table-of-contents)<hr>
 
@@ -425,7 +425,7 @@ Back to [top](#table-of-contents)<hr>
 ### Wishlist
 
 - The Wishlist page allows users to have a list of all the products they have added to their Wishlist, by clicking the heart icon on each product.
-- On the Wishlist page, there is ashort summary of the product, as well as a link to the product detail page, which allows users to add it to their cart.
+- On the Wishlist page, there is a short summary of the product, as well as a link to the product detail page, which allows users to add it to their cart.
 - The page also has a remove option, which allows users to remove product from their Wishlist.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636152/wishlist_auuiqp.png" width="600px" height="auto"  alt="Wishlist Page"></p>
@@ -451,6 +451,7 @@ Back to [top](#table-of-contents)<hr>
 ### My Account
 
 - The Account page has a dashboard which allows users to update their information - name and shipping address - which can be used for a quicker checkout process.
+- It also includes the button which directs to User's Wishlist page.
 - The Account page also shows the users Order History, which allows them to see the summary of all past purchases.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636147/my_account_f0c4jd.png" width="600px" height="auto"  alt="My Account Page"></p>
@@ -567,7 +568,7 @@ The XML that was created is in the root directory of the website.
 
 - The robots.txt file was created using this guide [https://www.conductor.com/academy/robotstxt/](https://www.conductor.com/academy/robotstxt/).
 
-  <p><img src="hhttps://res.cloudinary.com/dcydt01ed/image/upload/v1701724898/robots_jvcvi0.png" width="400px" height="auto"  alt="wordtracker"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701724898/robots_jvcvi0.png" width="500px" height="auto"  alt="robot.txt"></p>
 
 Back to [top](#table-of-contents)<hr>
 
