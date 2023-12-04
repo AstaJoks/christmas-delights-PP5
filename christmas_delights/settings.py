@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '8000-astajoks-christmas-delig-8oy7z8kwji.us2.codeanyapp.com',
+    '8000-astajoks-christmasdelig-gq0f0fyflgj.ws-eu106.gitpod.io',
     'christmas-delights-pp5-8e96943afcbb.herokuapp.com']
 
 
