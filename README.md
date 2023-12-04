@@ -269,7 +269,7 @@ Back to [top](#table-of-contents)<hr>
 
 - The database models and fields were planned and outlined using an Database Diagram in [Lucidchart](https://lucid.co/).
 
-    <p><img src="" width="700px" height="auto"  alt="Database Design"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701724637/diagram_if5fhq.jpg" width="700px" height="auto"  alt="Database Design"></p>
 
 Back to [top](#table-of-contents)<hr>
 
@@ -324,8 +324,7 @@ Back to [top](#table-of-contents)<hr>
 
 #### Hero Section
 
-- In the Hero Section there is a large Hero image to catch the user's eye, text to introduce the shop.
-- There is a 'Shop Now' button that links to the product details page.
+- In the Hero Section there is a large Hero image to catch the user's eye, text to introduce the shop. There is a 'Shop Now' button that links to the product details page.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634144/hero_image_ex0gkm.png" width="600px" height="auto"  alt="Hero Section"></p>
 
@@ -514,7 +513,7 @@ Back to [top](#table-of-contents)<hr>
      - Black: - for main text and some buttons.
      - White - for the overlay.
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701649332/colpr_pallete_s4rgwq.png" width="300px" height="auto"  alt="Colour"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701649332/colpr_pallete_s4rgwq.png" width="500px" height="auto"  alt="Colour"></p>
 
 ### Typography
 
@@ -538,7 +537,7 @@ Back to [top](#table-of-contents)<hr>
 
 - I have made a Social Media Marketing Page (Facebook) for the Christmas Delights store. It is a fantastic way to boost and increase engaement within the business and in increasing sales. Here is the screenshot of the whole page available to anyone.
 
-  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701652244/facebook_zn2hab.png" width="300px" height="auto"  alt="Facebook"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701652244/facebook_zn2hab.png" width="500px" height="auto"  alt="Facebook"></p>
 
   [Christmas Delights Facebook Page](https://www.facebook.com/profile.php?id=61554115565083)
 
@@ -546,7 +545,7 @@ Back to [top](#table-of-contents)<hr>
 
 - The website has an embedded [Mailchimp](https://mailchimp.com/?currency=EUR) newsletter in the footer.
 
-  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701652492/mailchimp_db7ajp.png" width="300px" height="auto"  alt="Mailchimp"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701652492/mailchimp_db7ajp.png" width="500px" height="auto"  alt="Mailchimp"></p>
 
 Back to [top](#table-of-contents)<hr>
 
@@ -556,7 +555,7 @@ Back to [top](#table-of-contents)<hr>
 
 - For finding meta keywords for the website, I used [Wordtracker](https://www.wordtracker.com/search). The keywords were chosen based on their performance and volume, as the competition stat wasn't show for the majority of the keywords.
 
-  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701651060/keywords_jivmqj.png" width="300px" height="auto"  alt="wordtracker"></p>
+  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701651060/keywords_jivmqj.png" width="500px" height="auto"  alt="wordtracker"></p>
 
 ### Sitemap.xml
 
@@ -568,7 +567,7 @@ The XML that was created is in the root directory of the website.
 
 - The robots.txt file was created using this guide [https://www.conductor.com/academy/robotstxt/](https://www.conductor.com/academy/robotstxt/).
 
-  <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701651060/keywords_jivmqj.png" width="300px" height="auto"  alt="wordtracker"></p>
+  <p><img src="hhttps://res.cloudinary.com/dcydt01ed/image/upload/v1701724898/robots_jvcvi0.png" width="400px" height="auto"  alt="wordtracker"></p>
 
 Back to [top](#table-of-contents)<hr>
 
