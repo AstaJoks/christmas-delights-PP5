@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://christmas-delights-pp5-8e96943afcbb.herokuapp.com/sitemap.xml
