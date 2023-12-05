@@ -27,13 +27,29 @@
 
 Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/). 
 
-- The deployed link from the site was used, the below errors were highlighted:
+- Home Page. Document checking was successfull. No errors or warnings found.
 
-<p><img src="" width="700px" height="auto"  alt="HTML Validation"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701817801/Home_Page_rtlhyw.png" width="600px" height="auto"  alt="HTML Validation Home Page"></p>
 
-- Errors were fixed and validation passed successfully.
+- Products Page. Document checking was successfull. No errors or warnings found.
 
-<p><img src="" width="700px" height="auto"  alt="HTML Validation Fixed"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701817833/products_u4s9jm.png" width="600px" height="auto"  alt="HTML Validation Products Page"></p>
+
+- Bag Page. Document checking was successfull. No errors or warnings found.
+
+<p><img src="" width="600px" height="auto"  alt="HTML Validation Bag Page"></p>
+
+- Wishlist Page. Document checking was successfull. No errors or warnings found. 
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701817834/wishlist_x6gfxo.png" width="600px" height="auto"  alt="HTML Validation Wishlist Page"></p>
+
+- Checkout Page. Document checking was successfull. No errors or warnings found. 
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701818414/checkout_zqfqdz.png" width="600px" height="auto"  alt="HTML Validation Checkout Page"></p>
+
+- FAQ Page. Document checking was successfull. No errors or warnings found. 
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701818415/faqs_ppjfod.png" width="600px" height="auto"  alt="HTML Validation faq Page"></p>
 
 
 ### CSS Validation
