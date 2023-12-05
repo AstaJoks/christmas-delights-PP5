@@ -10,7 +10,7 @@
   - [Product Detail Page](#product-detail-page)
   - [Shopping Bag Page](#shopping-bag-page)
   - [Checkout Page](#checkout-page)
-  - [Profile Page](#profile-page)
+  - [My Account Page](#profile-page)
   - [Wishlist Page](#wishlist-page)
   - [Contact Us Page](#contact-us-page)
   - [FAQS Page](#faqs-page)
@@ -90,9 +90,9 @@ Back to [top](#table-of-contents)<hr>
 
 <p><img src="" width="600px" height="auto"  alt="Lighthouse Testing Checkout"></p>
 
-### Profile Page
+### My Account Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing profile"></p>
+<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing My Account"></p>
 
 ### Wishlist Page
 
@@ -127,7 +127,7 @@ Back to [top](#table-of-contents)<hr>
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 
 - Steps to test:
-    - Open the browser and navigate to [WeLoveDogs](https://christmas-delights-pp5-8e96943afcbb.herokuapp.com/)
+    - Open the browser and navigate to [Christmas Delights](https://christmas-delights-pp5-8e96943afcbb.herokuapp.com/)
     - Open the developer tools (right click and inspect)
     - Set to responsive and decrease width to 320px
     - Set the zoom to 50%
@@ -150,15 +150,15 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | That The navbar shows the tabs My Account and Shopping Bag if the user is logged out
 | &check; | Clicking the My Account tab on the navbar shows the option to register or login if the user is logged out
 | &check; | Clicking the Register tab on the navbar loads the sign up page
-| &check; | Clicking the Login tab on the navbar loads the login page
+| &check; | Clicking the Login tab on the navbar loads the sign in page
 
 | Status | **Navigation Bar - User Logged In**
 |:-------:|:--------|
 | &check; | Clicking the navbar logo loads the home page
 | &check; | That The navbar shows the tabs My Account, Wishlist and the Shopping bag if the user is logged in
 | &check; | Clicking the My Account tab on the navbar shows the option got to My Account or to logout if the user is logged in
-| &check; | Clicking If the User is a Super user there is an aption to go to product Management
-| &check; | Clicking the My Account icon on the navbar loads the My Account page
+| &check; | Clicking the My Account option on the navbar loads the My Account page
+| &check; | That if the user is a Superuser there is an option to go to Product Management
 | &check; | Clicking the Logout tab on the navbar loads the logout page
 
 | Status | **Product Navigation Bar - User Logged Out/In**
@@ -173,6 +173,8 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | Clicking Christmas Eve Stockings loads only Christmas Eve Stockings Category
 | &check; | Clicking Fancy Christmas Clothes loads only Fancy Christmas Clothes Category
 | &check; | Clicking All Products loads All Products
+| &check; | Clicking Sale Tab loads all products which are on sale
+| &check; | Clicking Contact loads Contact Us page
 
 | Status | **Footer - User Logged Out/In**
 |:-------:|:--------|
@@ -213,7 +215,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 |:-------:|:--------|
 | &check; | That the user can not access the signup tab from the navbar if they have logged in
 
-| Status | **Log In Page - User Logged Out**
+| Status | **Sign In Page - User Logged Out**
 |:-------:|:--------|
 | &check; | Clicking the sign up link below the user input loads the sign up page
 | &check; | That the username input field is required
@@ -240,34 +242,33 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 |:-------:|:--------|
 | &check; | That images and text are loading correctly
 | &check; | Clicking the View Product Button loads the Product Details Page
-| &check; | Clicking the heart icon the message appears informing that the wishlist is available only to register users and redirects to Log In Page
-| &check; | That the date/time created, the number of likes and comments is visible under the post title
+| &check; | Clicking the heart icon the message appears informing that the Wishlist is available only to register users and redirects to Log In Page
 
 | Status | **Products Page - User Logged In**
 |:-------:|:--------|
 | &check; | That images and text are loading correctly
 | &check; | Clicking the View Product Button loads the Product Details Page
 | &check; | Clicking the heart icon the message appears informing that the te product is added to the users wishlist
-| &check; | That if the user is the super user Edit Button on the Product loads the Product Management Page
-| &check; | That if the user is the super user Delete Button on the Product deleted the product from the list (confirmation message appears)
+| &check; | That if the user is the Superuser Edit Button on the Product loads the Product Management Page
+| &check; | That if the user is the Superuser Delete Button on the product deletes the product from the list (confirmation message appears)
 
 | Status | **Product Detail Page - User Logged Out**
 |:-------:|:--------|
 | &check; | That images and text are loading correctly
 | &check; | Quantity Buttons working as expected
 | &check; | Clicking the keep Shopping Button redirects to the Product Page
+| &check; | Clicking the Add to Bag Button adds the product to Shopping Bag
 | &check; | Clicking the heart icon the message appears informing that the wishlist is available only to register users and redirects to Log In Page
-| &check; | That the date/time created, the number of likes and comments is visible under the post title
 
 | Status | **Product Detail Page - User Logged In**
 |:-------:|:--------|
 | &check; | That images and text are loading correctly
 | &check; | Quantity Buttons working as expected
 | &check; | Clicking the keep Shopping Button redirects to the Product Page
-| &check; | Clicking the Add to Bag Button adds the product to Shopping
+| &check; | Clicking the Add to Bag Button adds the product to Shopping Bag
 | &check; | Clicking the heart icon the message appears informing that the te product is added to the users wishlist
-| &check; | That if the user is the super user Edit Button on the Product loads the Product Management Page
-| &check; | That if the user is the super user Delete Button on the Product deleted the product from the list (confirmation message appears)
+| &check; | That if the user is the Superuser Edit Button on the Product loads the Product Management Page
+| &check; | That if the user is the Superuser Delete Button on the Product deleted the product from the list (confirmation message appears)
 
 | Status | **Wishlist Page - User Logged In**
 |:-------:|:--------|
@@ -281,13 +282,13 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | 
 | &check; | 
 
-| Status | **Checkout Page - User Logged In**
+| Status | **Checkout Page - User Logged Out**
 |:-------:|:--------|
 | &check; | 
 | &check; | 
 | &check; | 
 
-| Status | **Checkout Page - User Logged Out**
+| Status | **Checkout Page - User Logged In**
 |:-------:|:--------|
 | &check; | 
 | &check; | 
@@ -307,14 +308,11 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 | Status | **My Account Page- User Logged In**
 |:-------:|:--------|
-| &check; | That the user can change their name
-| &check; | That the user can add their bio
-| &check; | That the user can add their location
-| &check; | That the user can pick their birth of date from the Date Input
-| &check; | That the user can upload the profile picture
-| &check; | That the placeholder(image) is in place if the user have not updated their profile picture
-| &check; | Clicking the Update Profile button the alert message informs that users profile is updated successfully
-| &check; | Clicking the Create Post button redirects to the Create Post page
+| &check; | 
+| &check; | 
+| &check; | 
+| &check; | 
+| &check; | 
 
 | Status | **Contact Us Page- User Logged Out/In**
 |:-------:|:--------|
