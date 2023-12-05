@@ -96,16 +96,33 @@ No issues presented and line lengths were double checked. Only minor errors such
 
 <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806936/contact_us_model_wrtrer.png" width="600px" height="auto"  alt="contact/models.py"></p>
 
+
 ### Javascript Validation
 
 JavaScript code was run through [JSHINT](https://jshint.com) javascript validator.
-- It flagged up two warnings that 'let' is available in ES6, I fixed these warnings with adding /* jshint esversion: 6 */ at the top of teh function
 
-<p><img src="" width="400px" height="auto"  alt="JS Hint Validation"></p>
+- The stripe_elements.js file returns an two undefined variables error that cannot be changed due to it belonging to the external Stripe API.
 
-- It also flagged up the issue with one undefined variable. 
+This was not a critical warning so I felt it could be safely ignored.
 
-<p><img src="" width="400px" height="auto"  alt="JS Hint Validation fixed"></p>
+There were no other errors with this script.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701810624/stripe-element_swskvf.png" width="400px" height="auto"  alt="JS Hint Validation stripe_elements"></p>
+
+- The sort_selector script in the products.html page was tested and returns no errors just the warning about the undefined variable.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701810384/sort_selector_script_y7yilg.png" width="400px" height="auto"  alt="JS Hint Validation sort_element"></p>
+
+- The Mailchimp script in the base.html page also returns errors that cannot be changed due to it belonging to the external API. The errors were not critical warnings so I felt they could be safely ignored.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701810384/mailchimp_script_yovrtx.png" width="400px" height="auto"  alt="JS Hint Validation mailchimp_script"></p>
+
+- btt-linke script in the base.html page also returns the warning about undefined variable.
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701810383/btt-link_script_twzhep.png" width="400px" height="auto"  alt="JS Hint Validation btt-link_script"></p>
+
+
+
 
 Back to [top](#table-of-contents)<hr>
 
