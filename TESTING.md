@@ -40,17 +40,61 @@ Html validation was done with [https://validator.w3.org/nu/](https://validator.w
 
 The stylesheet was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-- No errors were found.
+- base.css, checkout.css
 
-<p><img src="" width="800px" height="auto"  alt="CSS Validation"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701805230/css_by_url_kee19m.png" width="800px" height="auto"  alt="CSS Validation by url"></p>
+
+- No errors were found.
 
 ### Python Validation
 
 Python code was validated using [Code institues Python validator](https://pep8ci.herokuapp.com/#)
 
-- Only minor errors such as missing blank spacing or whitespace. These were rectified easily.
+No issues presented and line lengths were double checked. Only minor errors such as missing blank spacing or whitespace found. These were rectified easily. I have included some screenshots with the results below. 
 
-<p><img src="" width="800px" height="auto"  alt="Python Validation"></p>
+- bag/context.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806938/contexts_-_Copy_mudctq.png" width="600px" height="auto"  alt="bag/context.py"></p>
+
+- checkout/models.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806936/caheckout_mode_mnxph6.png" width="600px" height="auto"  alt="checkout/models.py"></p>
+
+- checkout/view.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806936/checkout_views_hwdxz9.png" width="600px" height="auto"  alt="checkout/view.py"></p>
+
+- products/models.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806939/products_models_pgwtwx.png" width="600px" height="auto"  alt="products/models.py"></p>
+
+- products/views.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806940/products_views_pc8mag.png" width="600px" height="auto"  alt="products/views.py"></p>
+
+- profile/models.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806941/profile_models_ogjw71.png" width="600px" height="auto"  alt="profile/models.py"></p>
+
+- profile/views.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806941/profile_views_djk6cq.png" width="600px" height="auto"  alt="profile/views.py"></p>
+
+- wishlist/models.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806943/wishlist_models_vluyke.png" width="600px" height="auto"  alt="wishlist/models.py"></p>
+
+- wishlist/views.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806942/vishlist_views_vjsmqr.png" width="600px" height="auto"  alt="wishlist/views.py"></p>
+
+- contact/views.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806937/contact_viewes_aznux4.png" width="600px" height="auto"  alt="contact/views.py"></p>
+
+- contact/models.py
+
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701806936/contact_us_model_wrtrer.png" width="600px" height="auto"  alt="contact/models.py"></p>
 
 ### Javascript Validation
 
@@ -80,31 +124,31 @@ Back to [top](#table-of-contents)<hr>
 
 ### Product Detail Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing Product Details"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701803761/product_detail_lighthouse_ksn4on.png" width="600px" height="auto"  alt="Lighthouse Testing Product Details"></p>
 
 ### Shopping Bag Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing Shopping Bag"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701803959/bag_lighthouse_p1jcji.png" width="600px" height="auto"  alt="Lighthouse Testing Shopping Bag"></p>
 
 ### Checkout Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing Checkout"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701803761/checkout_lighthouse_fyg5ud.png" width="600px" height="auto"  alt="Lighthouse Testing Checkout"></p>
 
 ### My Account Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing My Account"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701803762/my_account_lighthouse_akane6.png" width="600px" height="auto"  alt="Lighthouse Testing My Account"></p>
 
 ### Wishlist Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing Wishlist"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701803762/wishlist_lighthouse_zbbqeg.png" width="600px" height="auto"  alt="Lighthouse Testing Wishlist"></p>
 
 ### Contact Us Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing Contact"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701803761/contact_lighthouse_nyqxhg.png" width="600px" height="auto"  alt="Lighthouse Testing Contact"></p>
 
 ### FAQS Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing FAQS"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701803761/faqs_lighthouse_ktqplp.png" width="600px" height="auto"  alt="Lighthouse Testing FAQS"></p>
 
 Back to [top](#table-of-contents)<hr>
 
@@ -362,6 +406,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | Status | **FAQs - User Logged Out/In**
 |:-------:|:--------|
 | &check; | That Answers and Questions loading correctly
+| &check; | Clicking the Contact Us link redirects to Contact us Page
 
 | Status | **404, 500 Error Pages**
 |:-------:|:--------|
