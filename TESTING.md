@@ -115,7 +115,7 @@ There were no other errors with this script.
 
 - The Mailchimp script in the base.html page also returns errors that cannot be changed due to it belonging to the external API. The errors were not critical warnings so I felt they could be safely ignored.
 
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701810384/mailchimp_script_yovrtx.png" width="400px" height="auto"  alt="JS Hint Validation mailchimp_script"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701812452/mailchimp_script_hzpanb.png" width="400px" height="auto"  alt="JS Hint Validation mailchimp_script"></p>
 
 - btt-linke script in the base.html page also returns the warning about undefined variable.
 
