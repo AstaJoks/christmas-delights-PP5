@@ -151,6 +151,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | Clicking the My Account tab on the navbar shows the option to register or login if the user is logged out
 | &check; | Clicking the Register tab on the navbar loads the sign up page
 | &check; | Clicking the Login tab on the navbar loads the sign in page
+| &check; | Search Bar works as expected and finds the products by the keywords
 
 | Status | **Navigation Bar - User Logged In**
 |:-------:|:--------|
@@ -160,6 +161,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | Clicking the My Account option on the navbar loads the My Account page
 | &check; | That if the user is a Superuser there is an option to go to Product Management
 | &check; | Clicking the Logout tab on the navbar loads the logout page
+| &check; | Search Bar works as expected and finds the products by the keywords
 
 | Status | **Product Navigation Bar - User Logged Out/In**
 |:-------:|:--------|
@@ -178,15 +180,15 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 | Status | **Footer - User Logged Out/In**
 |:-------:|:--------|
-| &check; | Clicking the facebook icon loads the Christmas Delights facebook page in a new tab
-| &check; | Clicking the instagram icon loads the instagram home page in a new tab
-| &check; | Clicking the Github icon loads the Developer Github page in a new tab
+| &check; | Clicking the Facebook icon loads the Christmas Delights Facebook page in a new tab
+| &check; | Clicking the Instagram icon loads the Instagram home page in a new tab
+| &check; | Clicking the GitHub icon loads the Developer GitHub page in a new tab
 | &check; | Clicking the Pinterest icon loads the Pinterest home page in a new tab
 | &check; | Clicking the Home link loads the Home Page
 | &check; | Clicking the FAQs link loads the FAQs Page
 | &check; | Clicking the Privacy Policy link loads the Christmas Delights Privacy Policy
 | &check; | Clicking the Contact link loads the Contact Page
-| &check; | Subscribe Button works as expected and the validation shows the error if the user do not enter the email address correctly 
+| &check; | Subscribe Button works as expected and the validation shows the error if the user do not enter the email address correctly
 
 | Status | **Home Page - User Logged Out/In**
 |:-------:|:--------|
@@ -203,13 +205,13 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | Clicking the log in link below the user input loads the log in page
 | &check; | That the username input field is required
 | &check; | That both password input fields is a required field
-| &check; | That if you provide a username and password that is too similiar that the user cannot sign up and user feedback is provided
+| &check; | That if you provide a username and password that is too similar that the user cannot sign up and user feedback is provided
 | &check; | That if your password doesn't match in both password fields, the user cannot sign up and user feedback is provided
 | &check; | That if the user provides a password less that 8 character, the user cannot sign up and user feedback is provided
 | &check; | That if you provide a good username and password but the email field does not contain a proper email address, the user cannot sign up and user feedback is given
 | &check; | That the email input field is optional
 | &check; | Clicking the Sign Up button signs the user up and logs the user in if the correct user information was provided for sign up
-| &check; | That when the user signs up, they are redirected to the home page and an alert message informs the user that they sisgned up successfully
+| &check; | That when the user signs up, they are redirected to the home page and an alert message informs the user that they signed up successfully
 
 | Status | **Sign Up Page - User Logged In**
 |:-------:|:--------|
@@ -241,15 +243,19 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | Status | **Products Page - User Logged Out**
 |:-------:|:--------|
 | &check; | That images and text are loading correctly
+| &check; | That Sorting is working as expected
+| &check; | That Products count works as expected and shows the correct amount of products
 | &check; | Clicking the View Product Button loads the Product Details Page
 | &check; | Clicking the heart icon the message appears informing that the Wishlist is available only to register users and redirects to Log In Page
 
 | Status | **Products Page - User Logged In**
 |:-------:|:--------|
 | &check; | That images and text are loading correctly
+| &check; | That Sorting is working as expected
+| &check; | That Products count works as expected and shows the correct amount of products
 | &check; | Clicking the View Product Button loads the Product Details Page
-| &check; | Clicking the heart icon the message appears informing that the te product is added to the users wishlist
-| &check; | That if the user is the Superuser Edit Button on the Product loads the Product Management Page
+| &check; | Clicking the heart icon the message appears informing that the the product is added to the users Wishlist
+| &check; | That if the user is the Superuser Edit Button on the Product loads the Product Management Edit Page
 | &check; | That if the user is the Superuser Delete Button on the product deletes the product from the list (confirmation message appears)
 
 | Status | **Product Detail Page - User Logged Out**
@@ -257,8 +263,8 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | That images and text are loading correctly
 | &check; | Quantity Buttons working as expected
 | &check; | Clicking the keep Shopping Button redirects to the Product Page
-| &check; | Clicking the Add to Bag Button adds the product to Shopping Bag
-| &check; | Clicking the heart icon the message appears informing that the wishlist is available only to register users and redirects to Log In Page
+| &check; | Clicking the Add to Bag Button adds the product to Shopping Bag (go to secure checkout message appears with the bag details)
+| &check; | Clicking the heart icon the message appears informing that the Wishlist is available only to register users and redirects to Log In Page
 
 | Status | **Product Detail Page - User Logged In**
 |:-------:|:--------|
@@ -266,59 +272,83 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | Quantity Buttons working as expected
 | &check; | Clicking the keep Shopping Button redirects to the Product Page
 | &check; | Clicking the Add to Bag Button adds the product to Shopping Bag
-| &check; | Clicking the heart icon the message appears informing that the te product is added to the users wishlist
-| &check; | That if the user is the Superuser Edit Button on the Product loads the Product Management Page
+| &check; | Clicking the heart icon the message appears informing that the the product is added to the users Wishlist
+| &check; | That if the user is the Superuser Edit Button on the Product loads the Product Management Edit Page
 | &check; | That if the user is the Superuser Delete Button on the Product deleted the product from the list (confirmation message appears)
 
 | Status | **Wishlist Page - User Logged In**
 |:-------:|:--------|
-| &check; | 
-| &check; | 
-| &check; | 
+| &check; | That images and text are loading correctly
+| &check; | Clicking the eye icon loads the Product Details Page
+| &check; | Clicking the x icon deletes the product from the Wishlist Page
 
-| Status | **Shopping Bag Page - User Logged In**
+| Status | **Shopping Bag Page - User Logged Out/In**
 |:-------:|:--------|
-| &check; | 
-| &check; | 
-| &check; | 
+| &check; | That images and text are loading correctly
+| &check; | Quantity Buttons working as expected
+| &check; | Subtotal, Bag Total Delivery and Grand Total calculates correctly
+| &check; | That delivery is free if the Bag Total is 35€ or more
+| &check; | That delivery is calculated correctly and added to Grand Total if delivery is less than 35€
+| &check; | That message appears informing user how much extra he/she has to spend to get the free delivery
+| &check; | Clicking the keep Shopping Button redirects to the Product Page
+| &check; | Clicking the Secure Checkout Button redirects to Checkout Page
 
 | Status | **Checkout Page - User Logged Out**
 |:-------:|:--------|
-| &check; | 
-| &check; | 
-| &check; | 
+| &check; |  That images, the delivery form and text are loading correctly
+| &check; |  That the Full Name, Email Address, Phone Number, Street, Town and Country  input fields are required
+| &check; | That the Country input field has the dropdown menu
+| &check; | That the create an account link redirects to correct Sign Up Page
+| &check; | That the login link redirects to correct Sign In Page
+| &check; | That order summary shows correct details
+| &check; | That simulated payment works as expected
+| &check; | That Adjust Bag Button redirects to Shopping Bag Page
+| &check; | That Complete Order Button works as expected and checks out the order
+| &check; | That overload is working as expected when processing the payment
 
 | Status | **Checkout Page - User Logged In**
 |:-------:|:--------|
-| &check; | 
-| &check; | 
-| &check; | 
+| &check; |  That images, the delivery form and text are loading correctly
+| &check; |  That the Full Name, Email Address, Phone Number, Street, Town and Country  input fields are required
+| &check; | That the Country input field has the dropdown menu
+| &check; | That the delivery information is saved for registered user
+| &check; | That order summary shows correct details
+| &check; | That simulated payment works as expected
+| &check; | That Adjust Bag Button redirects to Shopping Bag Page
+| &check; | That Complete Order Button works as expected and checks out the order
+| &check; | That overload is working as expected when processing the payment
 
 | Status | **Order Confirmation Page - User Logged Out/In**
 |:-------:|:--------|
-| &check; | 
-| &check; | 
-| &check; | 
+| &check; | That order Information is correct
+| &check; | That Check Out Our Sales Items Button loads the product sale category
+| &check; | That order successfully processed message appears informing user about the complete order
 
-| Status | **Product Management - Super User Logged In**
+| Status | **Product Management Add product - Super User Logged In**
 |:-------:|:--------|
-| &check; | 
-| &check; | 
-| &check; | 
+| &check; | That Add Product Form holds correct information
+| &check; | Clicking Cancel Button redirects to Products Page
+| &check; | Clicking Add Product Button add a new product to the list
+
+| Status | **Product Management Edit Product - Super User Logged In**
+|:-------:|:--------|
+| &check; | That Edit Product Form holds correct information
+| &check; | Clicking Cancel Button redirects to Products Page
+| &check; | Clicking Edit Product Button updates the product info
 
 | Status | **My Account Page- User Logged In**
 |:-------:|:--------|
-| &check; | 
-| &check; | 
-| &check; | 
-| &check; | 
-| &check; | 
+| &check; | That Wishlist Button redirects to user's Wishlist page
+| &check; | That default delivery information is saved
+| &check; | That Update Information Button updates user's information
+| &check; | That Users Order History is loading correctly
+| &check; |
 
 | Status | **Contact Us Page- User Logged Out/In**
 |:-------:|:--------|
 | &check; | That Category input field is required
 | &check; | That Reason input field has four options
-| &check; | That FuLL Name input field is required
+| &check; | That Full Name input field is required
 | &check; | That Email input field is required
 | &check; | That Subject input field is required
 | &check; | That Message input field is required
@@ -331,9 +361,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 | Status | **FAQs - User Logged Out/In**
 |:-------:|:--------|
-| &check; | 
-| &check; | 
-| &check; | 
+| &check; | That Answers and Questions loading correctly
 
 | Status | **404, 500 Error Pages**
 |:-------:|:--------|
