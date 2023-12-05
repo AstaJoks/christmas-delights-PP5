@@ -68,15 +68,15 @@ Back to [top](#table-of-contents)<hr>
 
 ## Lighthouse Testing
 
-- The performance test was done with Lighthouse through Google Chrome Developer Tools, both for desktop and mobile devices. Most Pages scored High.
+- The performance test was done with Lighthouse through Google Chrome Developer Tools. Most Pages scored High.
 
 ### Home Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing Home"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701801468/home_page_lighthouse_ifm1ia.png" width="600px" height="auto"  alt="Lighthouse Testing Home"></p>
 
 ### Products Page
 
-<p><img src="" width="600px" height="auto"  alt="Lighthouse Testing Products"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701801468/products_page_lighthouse_zrexoj.png" width="600px" height="auto"  alt="Lighthouse Testing Products"></p>
 
 ### Product Detail Page
 
@@ -366,23 +366,23 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | Status | **404, 500 Error Pages**
 |:-------:|:--------|
 | &check; | That 404 page loads if the user directs to a broken link/missing page.
-| &check; | That Home Page Button links to the home page correctly in the 404 error page
+| &check; | That Return to Shop Button links to the products page correctly in the 404 error page
 | &check; | That 500 page loads when internal server error occurs.
 | &check; | That Home Page Button links to the home page correctly in the 500 error page
 
 | Status | **Order Confirmation Email - User Logged Out/In**
 |:-------:|:--------|
 | &check; | That the order confirmation email containing order number and total price is received
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701799767/email_lseaeq.png" width="500px" height="auto"  alt="Email Confirmation"></p>
+| <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701799767/email_lseaeq.png" width="500px" height="auto"  alt="Email Confirmation"></p> |
 
 | Status | **Stripe - User Logged Out/In**
 |:-------:|:--------|
 | &check; | That order created successfully
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701799208/order_confirmation_vtnwag.png" width="500px" height="auto"  alt="Order Created Successfully"></p>
+| <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701799208/order_confirmation_vtnwag.png" width="500px" height="auto"  alt="Order Created Successfully"></p> |
 | &check; | That Stripe Webhooks working correctly - payment succeeded
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701799223/stripe_webhooks_lqiyrk.png" width="500px" height="auto"  alt="Stripe Webhooks"></p>
+| <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701799223/stripe_webhooks_lqiyrk.png" width="500px" height="auto"  alt="Stripe Webhooks"></p> |
 | &check; | That Stipe Event shows payment has succeeded message
-<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701799217/stripe_Events_rvtuyw.png" width="500px" height="auto"  alt="Stripe Events"></p>
+| <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701799217/stripe_Events_rvtuyw.png" width="500px" height="auto"  alt="Stripe Events"></p> |
 
 Back to [top](#table-of-contents)<hr>
 
