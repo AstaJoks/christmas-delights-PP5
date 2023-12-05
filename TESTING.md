@@ -37,7 +37,7 @@ Html validation was done with [https://validator.w3.org/nu/](https://validator.w
 
 - Bag Page. Document checking was successfull. No errors or warnings found.
 
-<p><img src="" width="600px" height="auto"  alt="HTML Validation Bag Page"></p>
+<p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701818703/bag_kjkhto.png" width="600px" height="auto"  alt="HTML Validation Bag Page"></p>
 
 - Wishlist Page. Document checking was successfull. No errors or warnings found. 
 
@@ -466,4 +466,14 @@ Back to [top](#table-of-contents)<hr>
 
 
 ## Bugs
+
+Throughout the development of Christmas Delights, numerous small bugs were encountered. However, these were typically minor and swiftly rectifiable, addressed promptly as part of the development workflow.
+
+There was one  bug worth to mention: The Bag was not loading after the bag_tools.py creation. I was getting the error message "bag_tools.py" is not registered tag library". I found the solution in [StackOverflow](https://stackoverflow.com/p).
+I had to delete and create a new init.py file and reload the server.
+
+Current Bug Status
+
+- As of the latest release, no critical bugs have been identified that impede the full functionality and navigability of the application.
+- The focus has been on ensuring a smooth and error-free experience for the end user.
 
