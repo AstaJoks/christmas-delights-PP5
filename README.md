@@ -352,15 +352,15 @@ Back to [top](#table-of-contents)<hr>
 
 ### Contact Us Page
 
-- The Contact feature can be found from the nav bar and allows both signed in users and anonymous users to contact the site admin.
+- The Contact feature can be found in the nav bar and the footer and allows both signed in users and anonymous users to contact the site admin.
 - Contact Us Page contains a form with the contact reason option, the user details and the message.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634357/contact_us_lhwn3p.png" width="600px" height="auto"  alt="Contact Us"></p>
 
 ### FAQs Page
 
-- The FAQs page gives the user information about shipping, cancellations, order modifications and payment options.
-- There is a link system at the top of the page to allow users to quickly get to the section they need.
+- The FAQs page can be found in the footer. 
+- It gives the user information about shipping, cancellations, order modifications and payment options.
 
     <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701634359/faqs_ql4t0s.png" width="600px" height="auto"  alt="FAQs Page"></p>
 
