@@ -72,7 +72,7 @@
             {% endfor %}
         </div>
 
-        <!-- Table only shows on screens larger than 991px -->
+        <!-- Table only shows on screens larger than 768px -->
         <div class="table-responsive rounded-0">
             <table class="table wishlist-table text-align-center">
                 <thead class="wishlist-head">
@@ -141,6 +141,11 @@
                 </div>
             </div>
         {% endif %}
+        <div class="text-center mt-5">
+            <a href="{% url 'products' %}" class="product-btn mt-1">
+            Add More Products
+            </a>
+        </div>
     </div>
 
 </div>

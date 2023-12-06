@@ -441,7 +441,7 @@ input[name='q']::placeholder {
     margin-left: 1rem;
 }
 
-.cancel-btn {
+a.cancel-btn {
     color: #FFFF;
     background-color: #7f0800;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -653,10 +653,6 @@ input[name='q']::placeholder {
 /* Responsive styles for screens with a maximum width of 420px */
 @media (max-width: 991px) {
 
-    .table-responsive {
-        display: none;
-    }
-    
     .header-container {
             padding-top: 116px;
         }
@@ -730,6 +726,13 @@ input[name='q']::placeholder {
     }
 }
 
+@media (max-width: 768px) {
+
+    .table-responsive {
+        display: none;
+    }
+}
+    
 @media (max-width: 520px) {
 
     .hero-text h1 {
