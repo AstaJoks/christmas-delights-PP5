@@ -653,6 +653,10 @@ input[name='q']::placeholder {
 /* Responsive styles for screens with a maximum width of 420px */
 @media (max-width: 991px) {
 
+    .table-responsive {
+        display: none;
+    }
+    
     .header-container {
             padding-top: 116px;
         }
