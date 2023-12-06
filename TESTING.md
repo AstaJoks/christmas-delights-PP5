@@ -358,6 +358,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 | &check; | That images and text are loading correctly
 | &check; | Clicking the eye icon loads the Product Details Page
 | &check; | Clicking the x icon deletes the product from the Wishlist Page
+| &check; | Clicking the Add More Products redirects to Products page
 
 | Status | **Shopping Bag Page - User Logged Out/In**
 |:-------:|:--------|

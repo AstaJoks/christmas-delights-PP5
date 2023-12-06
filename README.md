@@ -427,8 +427,9 @@ Back to [top](#table-of-contents)<hr>
 - The Wishlist page allows users to have a list of all the products they have added to their Wishlist, by clicking the heart icon on each product.
 - On the Wishlist page, there is a short summary of the product, as well as a link to the product detail page, which allows users to add it to their cart.
 - The page also has a remove option, which allows users to remove product from their Wishlist.
+- Button Add More Products redirects to the Product Page
 
-    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701636152/wishlist_auuiqp.png" width="600px" height="auto"  alt="Wishlist Page"></p>
+    <p><img src="https://res.cloudinary.com/dcydt01ed/image/upload/v1701878037/wishlist1_ny4mnr.png" width="600px" height="auto"  alt="Wishlist Page"></p>
 
 ### Shopping Bag Page
 
